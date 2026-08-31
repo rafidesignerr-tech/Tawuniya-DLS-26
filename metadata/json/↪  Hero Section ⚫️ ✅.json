@@ -1,0 +1,190 @@
+{
+ "MobileHeroSectionMetadata": {
+  "component": {
+   "name": "Mobile/Hero Section",
+   "category": "organisms",
+   "description": "Primary home page hero banner showcasing user's insurance policies with welcome message, policy carousel, quick links, and widget pagination. 6 variants for different LoB and user states.",
+   "type": "display",
+   "figmaId": "4766:19212",
+   "totalVariants": 6
+  },
+  "variants": {
+   "stats": {
+    "options": [
+     "Health",
+     "Motor",
+     "Life",
+     "+ Widget",
+     "New user",
+     "+Doc"
+    ],
+    "default": "Health",
+    "purpose": {
+     "Health": "Health insurance policy highlighted",
+     "Motor": "Motor insurance policy highlighted",
+     "Life": "Life insurance policy highlighted",
+     "+ Widget": "With additional widget displayed",
+     "New user": "New user without active policies",
+     "+Doc": "With document upload prompt"
+    }
+   }
+  },
+  "properties": {
+   "Welcome Message": {
+    "type": "text",
+    "default": "Welcome, Abdullah!"
+   },
+   "Show widget pagination": {
+    "type": "boolean",
+    "default": true
+   },
+   "alert": {
+    "type": "boolean",
+    "default": false
+   },
+   "Title": {
+    "type": "boolean",
+    "default": true
+   }
+  },
+  "aiHints": {
+   "priority": "high",
+   "keywords": [
+    "hero section",
+    "home hero",
+    "dashboard hero",
+    "welcome banner",
+    "policy carousel"
+   ]
+  }
+ },
+ "MobileHeroSectionV2Metadata": {
+  "component": {
+   "name": "Mobile/Hero Section V2",
+   "figmaId": "12778:42110",
+   "totalVariants": 1,
+   "category": "organisms",
+   "description": "Version 2 of the hero section with updated design."
+  }
+ },
+ "HeroSectionAtoms": {
+  "quickLinkButton": {
+   "name": "_Atoms/Quick Link Button",
+   "figmaId": "4766:15104",
+   "totalVariants": 2,
+   "types": [
+    "Invert",
+    "Default"
+   ]
+  },
+  "quickLinks": {
+   "name": "_Molecules/Quick Links",
+   "figmaId": "4766:18042",
+   "totalVariants": 2,
+   "types": [
+    "Invert",
+    "Default"
+   ]
+  },
+  "dashboardPolicyFrame": {
+   "name": "_Organisms/Dashboard Policy Frame",
+   "figmaId": "4766:18635",
+   "totalVariants": 1
+  },
+  "dashboardPolicyCarousel": {
+   "name": "_Organisms/Dashboard Policy Carousel",
+   "figmaId": "4766:18925",
+   "totalVariants": 2
+  },
+  "policyNameCarousel": {
+   "name": "_Atoms/Policy name carousel",
+   "figmaId": "4766:20803",
+   "totalVariants": 2
+  },
+  "dashboardPolicyCarouselV2": {
+   "name": "_Organisms/Dashboard Policy Carousel (V2)",
+   "figmaId": "12778:37602",
+   "totalVariants": 9
+  },
+  "lobLabelContainer": {
+   "name": "_Hero LoB Label Container",
+   "figmaId": "13062:15267",
+   "totalVariants": 2
+  },
+  "lobChip": {
+   "name": "LoB Chip",
+   "figmaId": "13062:15317",
+   "totalVariants": 3
+  }
+ },
+ "HeroSectionPageSummary": {
+  "pageName": "Hero Section",
+  "pageId": "4470:13428",
+  "fileKey": "ydDjnPsHFoe8baKAw1w9eY",
+  "totalComponentSets": 13,
+  "totalStandaloneComponents": 1,
+  "totalVariantsAcrossAll": 37,
+  "componentIndex": [
+   {
+    "name": "Mobile/Hero Section",
+    "id": "4766:19212",
+    "variants": 6,
+    "category": "organisms"
+   },
+   {
+    "name": "Mobile/Hero Section V2",
+    "id": "12778:42110",
+    "variants": 1,
+    "category": "organisms"
+   },
+   {
+    "name": "_Atoms/Quick Link Button",
+    "id": "4766:15104",
+    "variants": 2,
+    "category": "atoms"
+   },
+   {
+    "name": "_Molecules/Quick Links",
+    "id": "4766:18042",
+    "variants": 2,
+    "category": "molecules"
+   },
+   {
+    "name": "_Organisms/Dashboard Policy Frame",
+    "id": "4766:18635",
+    "variants": 1,
+    "category": "organisms"
+   },
+   {
+    "name": "_Organisms/Dashboard Policy Carousel",
+    "id": "4766:18925",
+    "variants": 2,
+    "category": "organisms"
+   },
+   {
+    "name": "_Atoms/Policy name carousel",
+    "id": "4766:20803",
+    "variants": 2,
+    "category": "atoms"
+   },
+   {
+    "name": "_Organisms/Dashboard Policy Carousel (V2)",
+    "id": "12778:37602",
+    "variants": 9,
+    "category": "organisms"
+   },
+   {
+    "name": "_Hero LoB Label Container",
+    "id": "13062:15267",
+    "variants": 2,
+    "category": "atoms"
+   },
+   {
+    "name": "LoB Chip",
+    "id": "13062:15317",
+    "variants": 3,
+    "category": "atoms"
+   }
+  ]
+ }
+}

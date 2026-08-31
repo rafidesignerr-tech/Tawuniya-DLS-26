@@ -1,0 +1,79 @@
+{
+ "MobileOfferStoriesMetadata": {
+  "component": {
+   "name": "Mobile/Offer Stories",
+   "category": "molecules",
+   "description": "Horizontal story carousel for the Store section, showcasing offers in an immersive, Instagram-like format.",
+   "type": "display",
+   "figmaId": "4537:26732",
+   "totalVariants": 1
+  },
+  "variants": {
+   "Variant": {
+    "options": [
+     "Offer Stories"
+    ],
+    "default": "Offer Stories"
+   }
+  },
+  "aiHints": {
+   "priority": "medium",
+   "keywords": [
+    "offer stories",
+    "stories",
+    "story carousel",
+    "offers"
+   ]
+  }
+ },
+ "OfferStorySegmentAtom": {
+  "component": {
+   "name": "_Atoms/Offer Story Segment",
+   "figmaId": "4537:26574",
+   "totalVariants": 2,
+   "category": "atoms",
+   "description": "Individual story segment with read/unread states and new badge."
+  },
+  "variants": {
+   "Property 1": {
+    "options": [
+     "Default/Unread",
+     "Read"
+    ],
+    "default": "Default/Unread"
+   }
+  },
+  "properties": {
+   "isNew": {
+    "type": "boolean",
+    "default": true
+   },
+   "Title": {
+    "type": "text",
+    "default": "Title"
+   }
+  }
+ },
+ "OfferStoriesPageSummary": {
+  "pageName": "Offer Stories",
+  "pageId": "4537:26350",
+  "fileKey": "ydDjnPsHFoe8baKAw1w9eY",
+  "totalComponentSets": 2,
+  "totalStandaloneComponents": 0,
+  "totalVariantsAcrossAll": 3,
+  "componentIndex": [
+   {
+    "name": "Mobile/Offer Stories",
+    "id": "4537:26732",
+    "variants": 1,
+    "category": "molecules"
+   },
+   {
+    "name": "_Atoms/Offer Story Segment",
+    "id": "4537:26574",
+    "variants": 2,
+    "category": "atoms"
+   }
+  ]
+ }
+}

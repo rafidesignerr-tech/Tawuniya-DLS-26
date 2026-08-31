@@ -1,0 +1,86 @@
+/**
+ * Tawuniya DLS 4.0 — Component Metadata
+ * Page: "Modal" (1395:8478)
+ * Figma file: ydDjnPsHFoe8baKAw1w9eY
+ * Generated: 2026-08-30
+ */
+
+// =============================================================================
+// Modal Page Component Metadata
+// Generated from Figma file: ydDjnPsHFoe8baKAw1w9eY
+// Page: "Modal" (1395:8478)
+// =============================================================================
+//
+// Documentation:
+//   "Modals are overlay components that temporarily interrupt the main flow to
+//    present critical information, request input, or require a decision."
+//
+// =============================================================================
+
+export const MobileModalMetadata = {
+  component: {
+    name: "Mobile/Modal",
+    category: "organisms",
+    description:
+      "Centered overlay dialog that interrupts the main flow to present critical information, request input, or require a decision. Blocks background interaction until dismissed. Supports optional header, primary and secondary action buttons.",
+    type: "overlay",
+    figmaId: "1395:7369",
+    totalVariants: 1,
+  },
+
+  variants: {
+    Type: { options: ["Default"], default: "Default" },
+  },
+
+  properties: {
+    "Show Header": { type: "boolean", default: true },
+    "Primary action": { type: "boolean", default: true },
+    "Secondary action": { type: "boolean", default: true },
+  },
+
+  usage: {
+    useCases: [
+      "Confirmation dialogs for destructive actions (delete, cancel policy)",
+      "Critical alerts requiring user acknowledgment",
+      "Decision prompts with primary/secondary actions",
+    ],
+    antiPatterns: [
+      {
+        scenario: "Using modal for non-critical information",
+        reason: "Modals interrupt flow; non-critical info should use toast or inline messages",
+        alternative: "Use Mobile/Toast for non-critical feedback",
+      },
+    ],
+  },
+
+  accessibility: {
+    role: "dialog",
+    wcag: "AA",
+    notes: [
+      "Content on Hover or Focus Level AA",
+      "Focus must be trapped within the modal while open",
+      "Background content must be inert (aria-hidden)",
+    ],
+  },
+
+  aiHints: {
+    priority: "high",
+    keywords: ["modal", "dialog", "alert dialog", "confirmation", "popup", "overlay dialog"],
+  },
+};
+
+// =============================================================================
+// PAGE-LEVEL SUMMARY
+// =============================================================================
+export const ModalPageSummary = {
+  pageName: "Modal",
+  pageId: "1395:8478",
+  fileKey: "ydDjnPsHFoe8baKAw1w9eY",
+  totalComponentSets: 1,
+  totalStandaloneComponents: 0,
+  totalVariantsAcrossAll: 1,
+
+  componentIndex: [
+    { name: "Mobile/Modal", id: "1395:7369", variants: 1, category: "organisms" },
+  ],
+};

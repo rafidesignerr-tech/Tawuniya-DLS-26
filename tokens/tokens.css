@@ -1,0 +1,1217 @@
+/* ==========================================================================
+ * Design Tokens - Auto-generated from Figma
+ * Generated: 2026-08-31
+ * ========================================================================== */
+
+/* --------------------------------------------------------------------------
+ * Primitive Color Tokens
+ * Collection: Primitives
+ * -------------------------------------------------------------------------- */
+:root {
+  --colors-purple-50: #F7F7FB;
+  --colors-purple-100: #D6D1ED;
+  --colors-purple-200: #AA96F9;
+  --colors-purple-300: #9075F7;
+  --colors-purple-400: #7859F6;
+  --colors-purple-500: #6B47F5;
+  --colors-purple-600: #5F40DC;
+  --colors-purple-700: #5036BA;
+  --colors-purple-800: #34295E;
+  --colors-purple-900: #110B27;
+  --colors-transparent-white-solid: #FFFFFF;
+  --colors-grey-400: #9AA1AF;
+  --colors-grey-500: #6B7283;
+  --colors-grey-600: #4A5565;
+  --colors-grey-700: #364153;
+  --colors-grey-800: #1E2939;
+  --colors-black: #000000;
+  --colors-green-50: #F1F9F5;
+  --colors-green-100: #D3EEE0;
+  --colors-green-200: #B4E4CB;
+  --colors-green-300: #94DCB6;
+  --colors-green-400: #73D3A1;
+  --colors-green-500: #53CA8D;
+  --colors-green-600: #3ABB78;
+  --colors-green-700: #329A64;
+  --colors-green-800: #2A7950;
+  --colors-green-900: #22583C;
+  --colors-pink-50: #FFEFEF;
+  --colors-pink-100: #FFDBDB;
+  --colors-pink-200: #FFCCCD;
+  --colors-pink-300: #FFA9A2;
+  --colors-pink-400: #FF8688;
+  --colors-pink-500: #FF6365;
+  --colors-pink-600: #DD4D4F;
+  --colors-pink-700: #BB393B;
+  --colors-pink-800: #99292A;
+  --colors-pink-900: #551011;
+  --colors-vivid-50: #F4FFFA;
+  --colors-vivid-100: #D5FCE8;
+  --colors-vivid-200: #C2FFE3;
+  --colors-vivid-300: #B2FFDC;
+  --colors-vivid-400: #92FFCD;
+  --colors-vivid-500: #80EBBA;
+  --colors-vivid-600: #6BCEA0;
+  --colors-vivid-700: #57B187;
+  --colors-vivid-800: #44946F;
+  --colors-vivid-900: #255941;
+  --colors-grey-900: #101828;
+  --colors-transparent-white-transparent-10: rgba(255, 255, 255, 0.10); /* opacity: 10% */
+  --colors-transparent-white-transparent-20: rgba(255, 255, 255, 0.20); /* opacity: 20% */
+  --colors-transparent-white-transparent-30: rgba(255, 255, 255, 0.30); /* opacity: 30% */
+  --colors-transparent-white-transparent-40: rgba(255, 255, 255, 0.40); /* opacity: 40% */
+  --colors-transparent-white-transparent-50: rgba(255, 255, 255, 0.50); /* opacity: 50% */
+  --colors-transparent-white-transparent-60: rgba(255, 255, 255, 0.60); /* opacity: 60% */
+  --colors-transparent-white-transparent-70: rgba(255, 255, 255, 0.70); /* opacity: 70% */
+  --colors-transparent-white-transparent-80: rgba(255, 255, 255, 0.80); /* opacity: 80% */
+  --colors-transparent-white-transparent-90: rgba(255, 255, 255, 0.90); /* opacity: 90% */
+  --colors-yellow-500: #FDC921;
+  --colors-yellow-600: #F2BA03;
+  --colors-yellow-700: #C79A05;
+  --colors-yellow-800: #9B7908;
+  --colors-yellow-900: #4A3B07;
+  --colors-yellow-400: #FCD24A;
+  --colors-yellow-300: #FADB75;
+  --colors-yellow-200: #F9E49F;
+  --colors-yellow-100: #FAEEC7;
+  --colors-red-transparent-10: rgba(241, 81, 45, 0.10); /* opacity: 10% */
+  --colors-yellow-transparent-10: rgba(253, 201, 33, 0.10); /* opacity: 10% */
+  --colors-green-transparent-10: rgba(83, 202, 141, 0.10); /* opacity: 10% */
+  --colors-purple-transparent-10: rgba(107, 71, 245, 0.10); /* opacity: 10% */
+  --colors-grey-transparent-10: rgba(133, 134, 137, 0.10); /* opacity: 10% */
+  --colors-grey-950: #030713;
+  --colors-grey-300: #D1D5DB;
+  --colors-grey-200: #E6E7EB;
+  --colors-grey-100: #F3F4F6;
+  --colors-red-500: #F1512D;
+  --colors-red-600: #E53710;
+  --colors-red-700: #BC2F10;
+  --colors-red-800: #932811;
+  --colors-red-900: #692111;
+  --colors-red-400: #F27154;
+  --colors-red-300: #F3927C;
+  --colors-red-200: #F4B2A4;
+  --colors-red-100: #F7D2CA;
+  --colors-red-50: #FCF0EE;
+  --colors-yellow-50: #FCF9ED;
+  --colors-grey-50: #F9FAFC;
+  --colors-grey-60: #ECF0F3;
+  --colors-vitality: #E71656;
+  --colors-drive: #FF742C;
+  --colors-grey-25: #F6F6F6;
+  --colors-Additonal-Bronze: #CE8946;
+  --colors-Additonal-Off-white: #FFF7EF;
+  --colors-Additonal-Gray: #B0B0B0;
+  --colors-Additonal-Gray-2: #636363;
+  --colors-dark-Purple-Purple-100: #6945F0;
+  --colors-dark-White-White-100: #424245;
+  --colors-dark-Vidid-Vidid-100: #3F735B;
+  --colors-dark-Green-Green-100: #307652;
+  --colors-dark-Yellow-Yellow-100: #806511;
+  --colors-dark-Pink-Pink-100: #9D5354;
+  --colors-dark-Red-Red-100: #A64E3A;
+  --colors-dark-Purple-Purple-200: #896CF7;
+  --colors-dark-Purple-Purple-300: #A089F9;
+  --colors-dark-Purple-Purple-400: #B4A2FA;
+  --colors-dark-Purple-Purple-500: #C5B6FB;
+  --colors-dark-Purple-Purple-600: #D3C8FC;
+  --colors-dark-Purple-Purple-700: #DFD7FD;
+  --colors-dark-Purple-Purple-800: #EAE4FE;
+  --colors-dark-Purple-Purple-900: #F3EFFE;
+  --colors-dark-Purple-Purple-1000: #F8F6FF;
+  --colors-dark-White-White-200: #383838;
+  --colors-dark-White-White-300: #9A9A9A;
+  --colors-dark-White-White-400: #A1A1A1;
+  --colors-dark-White-White-500: #BFBFBF;
+  --colors-dark-White-White-600: #CECECE;
+  --colors-dark-White-White-700: #DCDCDC;
+  --colors-dark-White-White-800: #E7E7E7;
+  --colors-dark-White-White-900: #F0F0F0;
+  --colors-dark-White-White-1000: #F7F7F7;
+  --colors-dark-Vidid-Vidid-200: #4F9172;
+  --colors-dark-Vidid-Vidid-300: #5CA985;
+  --colors-dark-Vidid-Vidid-400: #68BE97;
+  --colors-dark-Vidid-Vidid-500: #72D1A6;
+  --colors-dark-Vidid-Vidid-600: #7BE2B3;
+  --colors-dark-Vidid-Vidid-700: #95EEC5;
+  --colors-dark-Vidid-Vidid-800: #BAF4DA;
+  --colors-dark-Vidid-Vidid-900: #D6F8E9;
+  --colors-dark-Vidid-Vidid-1000: #E9FCF3;
+  --colors-dark-Green-Green-200: #3D9367;
+  --colors-dark-Green-Green-300: #47AC78;
+  --colors-dark-Green-Green-400: #50C288;
+  --colors-dark-Green-Green-500: #6FD29F;
+  --colors-dark-Green-Green-600: #95DEB9;
+  --colors-dark-Green-Green-700: #B3E8CC;
+  --colors-dark-Green-Green-800: #CDEFDE;
+  --colors-dark-Green-Green-900: #E1F6EB;
+  --colors-dark-Green-Green-1000: #EFFAF5;
+  --colors-dark-Yellow-Yellow-200: #A07F15;
+  --colors-dark-Yellow-Yellow-300: #BC9519;
+  --colors-dark-Yellow-Yellow-400: #D4A81C;
+  --colors-dark-Yellow-Yellow-500: #E9B91E;
+  --colors-dark-Yellow-Yellow-600: #FBC821;
+  --colors-dark-Yellow-Yellow-700: #FED961;
+  --colors-dark-Yellow-Yellow-800: #FEE69A;
+  --colors-dark-Yellow-Yellow-900: #FEF0C3;
+  --colors-dark-Yellow-Yellow-1000: #FFF7E0;
+  --colors-dark-Pink-Pink-200: #C56869;
+  --colors-dark-Pink-Pink-300: #E7797B;
+  --colors-dark-Pink-Pink-400: #FF8D8E;
+  --colors-dark-Pink-Pink-500: #FFA8AA;
+  --colors-dark-Pink-Pink-600: #FFBEC0;
+  --colors-dark-Pink-Pink-700: #FFD1D2;
+  --colors-dark-Pink-Pink-800: #FFE0E1;
+  --colors-dark-Pink-Pink-900: #FFECED;
+  --colors-dark-Pink-Pink-1000: #FFF5F6;
+  --colors-dark-Red-Red-200: #D16248;
+  --colors-dark-Red-Red-300: #F27357;
+  --colors-dark-Red-Red-400: #F5947F;
+  --colors-dark-Red-Red-500: #F7AD9C;
+  --colors-dark-Red-Red-600: #F9C2B6;
+  --colors-dark-Red-Red-700: #FBD3CB;
+  --colors-dark-Red-Red-800: #FCE2DC;
+  --colors-dark-Red-Red-900: #FDEDEA;
+  --colors-dark-Red-Red-1000: #FEF5F4;
+  --colors-neutral-White: #FFFFFF;
+  --colors-neutral-Gray-5: #F9FAFC;
+  --colors-neutral-Gray10: #F3F3F3;
+  --colors-neutral-Gray20: #E7E7E7;
+  --colors-neutral-Gray30: #DADBDC;
+  --colors-neutral-Gray40: #CECFD0;
+  --colors-neutral-Gray50: #B6B6B8;
+  --colors-neutral-Gray60: #A1A1A1;
+  --colors-neutral-Gray70: #858689;
+  --colors-neutral-Gray80: #6A6B6E;
+  --colors-neutral-Gray90: #505052;
+  --colors-neutral-Gray100: #292A2E;
+  --colors-neutral-Gray110: #292A2E;
+  --colors-neutral-Gray120: #1F1F1F;
+  --colors-neutral-Black: #000000;
+  --colors-branding-gossi: #333371;
+  --colors-branding-nationalDay: #00726C;
+  --colors-branding-STA: #78006E;
+  --colors-branding-ANB: #0072DA;
+  --colors-branding-STC: #4F008C;
+  --colors-branding-SNB: #0C7560;
+  --colors-branding-Ejar: #009969;
+  --colors-branding-primary-Color-4: #00AF9A;
+  --colors-branding-vitality: #E71656;
+  --colors-branding-drive: #FF7312;
+  --colors-branding-Tawuniya-Primary-Color: #6B47F5;
+  --colors-branding-Tawuniya-Secondary-Color: #34295E;
+  --colors-transparent-black-transparent-10: rgba(0, 0, 0, 0.10); /* opacity: 10% */
+  --colors-transparent-black-transparent-70: rgba(0, 0, 0, 0.70); /* opacity: 70% */
+  --colors-transparent-black-transparent-60: rgba(0, 0, 0, 0.60); /* opacity: 60% */
+  --colors-transparent-black-transparent-90: rgba(0, 0, 0, 0.90); /* opacity: 90% */
+  --colors-transparent-black-transparent-20: rgba(0, 0, 0, 0.20); /* opacity: 20% */
+  --colors-transparent-black-transparent-50: rgba(0, 0, 0, 0.50); /* opacity: 50% */
+  --colors-transparent-black-transparent-40: rgba(0, 0, 0, 0.40); /* opacity: 40% */
+  --colors-transparent-black-transparent-80: rgba(0, 0, 0, 0.80); /* opacity: 80% */
+  --colors-transparent-black-transparent-30: rgba(0, 0, 0, 0.30); /* opacity: 30% */
+  --colors-purple-750: #453689;
+}
+
+/* --------------------------------------------------------------------------
+ * Semantic Color Tokens
+ * Collection: Colors (V4) - Light Mode
+ * -------------------------------------------------------------------------- */
+:root,
+[data-theme="light"] {
+  --background-secondary: #FFFFFF; /* alias: colors/transparent/white/solid */
+  --background-primary: #F9FAFC; /* alias: colors/grey/50 */
+  --background-transparent-primary: rgba(255, 255, 255, 0.50); /* opacity: 50% */ /* alias: colors/transparent/white/transparent-50 */
+  --background-transparent-secondary: rgba(255, 255, 255, 0.10); /* opacity: 10% */ /* alias: colors/transparent/white/transparent-10 */
+  --fill-brand-primary-active: #6B47F5; /* alias: colors/branding/Tawuniya/Primary Color */
+  --fill-brand-primary-hover: #5F40DC; /* alias: colors/purple/600 */
+  --fill-brand-primary-pressed: #5036BA; /* alias: colors/purple/700 */
+  --fill-brand-primary-disabled: #D6D1ED; /* alias: colors/purple/100 */
+  --fill-brand-primary-focused: #6B47F5; /* alias: colors/branding/Tawuniya/Primary Color */
+  --fill-brand-primary-background: #F7F7FB; /* alias: colors/purple/50 */
+  --fill-brand-secondary-active: #34295E; /* alias: colors/purple/800 */
+  --fill-brand-secondary-hover: #5036BA; /* alias: colors/purple/700 */
+  --fill-brand-secondary-pressed: #110B27; /* alias: colors/purple/900 */
+  --fill-brand-secondary-focused: #34295E; /* alias: colors/purple/800 */
+  --fill-brand-secondary-disabled: #D6D1ED; /* alias: colors/purple/100 */
+  --fill-brand-secondary-background: #F7F7FB; /* alias: colors/purple/50 */
+  --fill-feedback-success: #329A64; /* alias: colors/green/700 */
+  --fill-feedback-warning: #FDC921; /* alias: colors/yellow/500 */
+  --fill-feedback-error: #BB393B; /* alias: colors/pink/700 */
+  --fill-brand-pink-active: #FF6365; /* alias: colors/pink/500 */
+  --fill-brand-pink-hover: #DD4D4F; /* alias: colors/pink/600 */
+  --fill-brand-pink-pressed: #BB393B; /* alias: colors/pink/700 */
+  --fill-brand-pink-focused: #FF6365; /* alias: colors/pink/500 */
+  --fill-brand-pink-disabled: #FFDBDB; /* alias: colors/pink/100 */
+  --fill-brand-pink-background: #FFEFEF; /* alias: colors/pink/50 */
+  --fill-brand-vivid-green-active: #80EBBA; /* alias: colors/vivid/500 */
+  --fill-brand-vivid-green-hover: #6BCEA0; /* alias: colors/vivid/600 */
+  --fill-brand-vivid-green-pressed: #57B187; /* alias: colors/vivid/700 */
+  --fill-brand-vivid-green-focused: #80EBBA; /* alias: colors/vivid/500 */
+  --fill-brand-vivid-green-disabled: #D5FCE8; /* alias: colors/vivid/100 */
+  --fill-brand-vivid-green-background: #F4FFFA; /* alias: colors/vivid/50 */
+  --text-base-primary: #000000; /* alias: colors/black */
+  --text-base-secondary: #1E2939; /* alias: colors/grey/800 */
+  --text-base-tertiary: #6B7283; /* alias: colors/grey/500 */
+  --text-base-disabled: #6B7283; /* alias: colors/grey/500 */
+  --text-base-invert: #FFFFFF; /* alias: colors/transparent/white/solid */
+  --text-base-secondary-invert: rgba(255, 255, 255, 0.60); /* opacity: 60% */ /* alias: colors/transparent/white/transparent-60 */
+  --text-brand-primary-active: #6B47F5; /* alias: colors/branding/Tawuniya/Primary Color */
+  --text-brand-primary-hover: #5F40DC; /* alias: colors/purple/600 */
+  --text-brand-primary-pressed: #5036BA; /* alias: colors/purple/700 */
+  --text-brand-primary-focused: #6B47F5; /* alias: colors/branding/Tawuniya/Primary Color */
+  --text-brand-primary-disabled: #D6D1ED; /* alias: colors/purple/100 */
+  --text-brand-primary-background: #F7F7FB; /* alias: colors/purple/50 */
+  --text-feedback-success: #329A64; /* alias: colors/green/700 */
+  --text-feedback-warning: #4A3B07; /* alias: colors/yellow/900 */
+  --text-feedback-error: #BB393B; /* alias: colors/pink/700 */
+  --text-brand-green-active: #80EBBA; /* alias: colors/vivid/500 */
+  --text-brand-green-hover: #6BCEA0; /* alias: colors/vivid/600 */
+  --text-brand-green-pressed: #57B187; /* alias: colors/vivid/700 */
+  --text-brand-green-focused: #80EBBA; /* alias: colors/vivid/500 */
+  --text-brand-green-disabled: #D5FCE8; /* alias: colors/vivid/100 */
+  --text-brand-green-background: #F4FFFA; /* alias: colors/vivid/50 */
+  --text-brand-pink-active: #FF6365; /* alias: colors/pink/500 */
+  --text-brand-pink-hover: #DD4D4F; /* alias: colors/pink/600 */
+  --text-brand-pink-pressed: #BB393B; /* alias: colors/pink/700 */
+  --text-brand-pink-focused: #FF6365; /* alias: colors/pink/500 */
+  --text-brand-pink-disabled: #FFDBDB; /* alias: colors/pink/100 */
+  --text-brand-pink-background: #FFEFEF; /* alias: colors/pink/50 */
+  --background-tertiary: rgba(133, 134, 137, 0.10); /* opacity: 10% */ /* alias: colors/grey/transparent-10 */
+  --border-base-primary: #030713; /* alias: colors/grey/950 */
+  --border-base-secondary: #9AA1AF; /* alias: colors/grey/400 */
+  --border-base-tertiary: #ECF0F3; /* alias: colors/grey/60 */
+  --border-base-disabled: #F9FAFC; /* alias: colors/grey/50 */
+  --border-base-invert: rgba(255, 255, 255, 0.50); /* opacity: 50% */ /* alias: colors/transparent/white/transparent-50 */
+  --border-base-divider: #F3F4F6; /* alias: colors/grey/100 */
+  --button-fill-brand-primary-active: #6B47F5; /* alias: colors/branding/Tawuniya/Primary Color */
+  --button-fill-brand-primary-hover: #5F40DC; /* alias: colors/purple/600 */
+  --button-fill-brand-primary-pressed: #5036BA; /* alias: colors/purple/700 */
+  --button-fill-brand-primary-focused: #6B47F5; /* alias: colors/branding/Tawuniya/Primary Color */
+  --button-fill-brand-primary-disabled: #E6E7EB; /* alias: colors/grey/200 */
+  --button-fill-brand-primary-background: #F7F7FB; /* alias: colors/purple/50 */
+  --button-border-base-active: #101828; /* alias: colors/grey/900 */
+  --button-border-base-hover: #364153; /* alias: colors/grey/700 */
+  --button-border-base-pressed: #9AA1AF; /* alias: colors/grey/400 */
+  --button-border-base-focused: #000000; /* alias: colors/black */
+  --button-border-base-disabled: #6B7283; /* alias: colors/grey/500 */
+  --button-text-base-default: #FFFFFF; /* alias: colors/transparent/white/solid */
+  --button-text-base-disabled: rgba(255, 255, 255, 0.90); /* opacity: 90% */ /* alias: colors/transparent/white/transparent-90 */
+  --button-text-brand-primary-active: #6B47F5; /* alias: colors/branding/Tawuniya/Primary Color */
+  --button-text-brand-primary-hover: #5F40DC; /* alias: colors/purple/600 */
+  --button-text-brand-primary-pressed: #5036BA; /* alias: colors/purple/700 */
+  --button-text-brand-primary-focused: #6B47F5; /* alias: colors/branding/Tawuniya/Primary Color */
+  --button-text-brand-primary-disabled: #6B7283; /* alias: colors/grey/500 */
+  --button-text-brand-primary-background: #F7F7FB; /* alias: colors/purple/50 */
+  --button-text-brand-secondary-active: #6B47F5; /* alias: colors/purple/500 */
+  --button-text-brand-secondary-hover: #5F40DC; /* alias: colors/purple/600 */
+  --button-text-brand-secondary-pressed: #5036BA; /* alias: colors/purple/700 */
+  --button-text-brand-secondary-focused: #34295E; /* alias: colors/purple/800 */
+  --button-text-brand-secondary-disabled: #AA96F9; /* alias: colors/purple/200 */
+  --button-text-brand-secondary-background: #F7F7FB; /* alias: colors/purple/50 */
+  --button-text-brand-pink-active: #FF6365; /* alias: colors/pink/500 */
+  --button-text-brand-pink-hover: #DD4D4F; /* alias: colors/pink/600 */
+  --button-text-brand-pink-pressed: #BB393B; /* alias: colors/pink/700 */
+  --button-text-brand-pink-focused: #FF6365; /* alias: colors/pink/500 */
+  --button-text-brand-pink-disabled: #FFDBDB; /* alias: colors/pink/100 */
+  --button-text-brand-pink-background: #FFEFEF; /* alias: colors/pink/50 */
+  --button-fill-transparent-active: rgba(255, 255, 255, 0.50); /* opacity: 50% */ /* alias: colors/transparent/white/transparent-50 */
+  --button-fill-transparent-hover: rgba(255, 255, 255, 0.60); /* opacity: 60% */ /* alias: colors/transparent/white/transparent-60 */
+  --button-fill-transparent-pressed: rgba(255, 255, 255, 0.70); /* opacity: 70% */ /* alias: colors/transparent/white/transparent-70 */
+  --button-fill-transparent-focused: rgba(255, 255, 255, 0.50); /* opacity: 50% */ /* alias: colors/transparent/white/transparent-50 */
+  --button-fill-transparent-disabled: rgba(255, 255, 255, 0.20); /* opacity: 20% */ /* alias: colors/transparent/white/transparent-20 */
+  --button-border-base-invert: #FFFFFF; /* alias: colors/transparent/white/solid */
+  --button-icon-base-active: #FFFFFF; /* alias: colors/transparent/white/solid */
+  --button-icon-base-disabled: rgba(255, 255, 255, 0.90); /* opacity: 90% */ /* alias: colors/transparent/white/transparent-90 */
+  --button-border-brand-primary-active: #6B47F5; /* alias: colors/branding/Tawuniya/Primary Color */
+  --button-border-brand-primary-hover: #5F40DC; /* alias: colors/purple/600 */
+  --button-border-brand-primary-pressed: #5036BA; /* alias: colors/purple/700 */
+  --button-border-brand-primary-focused: #6B47F5; /* alias: colors/branding/Tawuniya/Primary Color */
+  --button-border-brand-primary-disabled: #D6D1ED; /* alias: colors/purple/100 */
+  --button-border-brand-primary-background: #F7F7FB; /* alias: colors/purple/50 */
+  --button-border-brand-secondary-active: #6B47F5; /* alias: colors/purple/500 */
+  --button-border-brand-secondary-hover: #5F40DC; /* alias: colors/purple/600 */
+  --button-border-brand-secondary-pressed: #5036BA; /* alias: colors/purple/700 */
+  --button-border-brand-secondary-focused: #34295E; /* alias: colors/purple/800 */
+  --button-border-brand-secondary-disabled: #D6D1ED; /* alias: colors/purple/100 */
+  --button-border-brand-secondary-background: #F7F7FB; /* alias: colors/purple/50 */
+  --button-border-transparent-active: rgba(255, 255, 255, 0.50); /* opacity: 50% */ /* alias: colors/transparent/white/transparent-50 */
+  --button-border-transparent-hover: rgba(255, 255, 255, 0.60); /* opacity: 60% */ /* alias: colors/transparent/white/transparent-60 */
+  --button-border-transparent-pressed: rgba(255, 255, 255, 0.70); /* opacity: 70% */ /* alias: colors/transparent/white/transparent-70 */
+  --button-border-transparent-focused: rgba(255, 255, 255, 0.50); /* opacity: 50% */ /* alias: colors/transparent/white/transparent-50 */
+  --button-border-transparent-disabled: rgba(255, 255, 255, 0.20); /* opacity: 20% */ /* alias: colors/transparent/white/transparent-20 */
+  --button-icon-brand-primary-active: #6B47F5; /* alias: colors/branding/Tawuniya/Primary Color */
+  --button-icon-brand-primary-hover: #5F40DC; /* alias: colors/purple/600 */
+  --button-icon-brand-primary-pressed: #5036BA; /* alias: colors/purple/700 */
+  --button-icon-brand-primary-focused: #6B47F5; /* alias: colors/branding/Tawuniya/Primary Color */
+  --button-icon-brand-primary-disabled: #6B7283; /* alias: colors/grey/500 */
+  --button-icon-brand-primary-background: #F7F7FB; /* alias: colors/purple/50 */
+  --button-icon-brand-secondary-active: #6B47F5; /* alias: colors/purple/500 */
+  --button-icon-brand-secondary-hover: #5F40DC; /* alias: colors/purple/600 */
+  --button-icon-brand-secondary-pressed: #5036BA; /* alias: colors/purple/700 */
+  --button-icon-brand-secondary-focused: #34295E; /* alias: colors/purple/800 */
+  --button-icon-brand-secondary-disabled: #AA96F9; /* alias: colors/purple/200 */
+  --button-icon-brand-secondary-background: #F7F7FB; /* alias: colors/purple/50 */
+  --button-icon-brand-pink-active: #FF6365; /* alias: colors/pink/500 */
+  --button-icon-brand-pink-hover: #DD4D4F; /* alias: colors/pink/600 */
+  --button-icon-brand-pink-pressed: #BB393B; /* alias: colors/pink/700 */
+  --button-icon-brand-pink-focused: #FF6365; /* alias: colors/pink/500 */
+  --button-icon-brand-pink-disabled: #FFDBDB; /* alias: colors/pink/100 */
+  --button-icon-brand-pink-background: #FFEFEF; /* alias: colors/pink/50 */
+  --icon-brand-primary-active: #6B47F5; /* alias: colors/branding/Tawuniya/Primary Color */
+  --icon-brand-primary-hover: #5F40DC; /* alias: colors/purple/600 */
+  --icon-brand-primary-pressed: #5036BA; /* alias: colors/purple/700 */
+  --icon-brand-primary-focused: #6B47F5; /* alias: colors/branding/Tawuniya/Primary Color */
+  --icon-brand-primary-disabled: #D6D1ED; /* alias: colors/purple/100 */
+  --icon-brand-primary-background: #F7F7FB; /* alias: colors/purple/50 */
+  --icon-brand-secondary-active: #34295E; /* alias: colors/purple/800 */
+  --icon-brand-secondary-hover: #5036BA; /* alias: colors/purple/700 */
+  --icon-brand-secondary-pressed: #110B27; /* alias: colors/purple/900 */
+  --icon-brand-secondary-focused: #34295E; /* alias: colors/purple/800 */
+  --icon-brand-secondary-disabled: #D6D1ED; /* alias: colors/purple/100 */
+  --icon-brand-secondary-background: #F7F7FB; /* alias: colors/purple/50 */
+  --icon-base-active: #FFFFFF; /* alias: colors/transparent/white/solid */
+  --icon-base-disabled: #6B7283; /* alias: colors/grey/500 */
+  --button-fill-brand-secondary-active: #6B47F5; /* alias: colors/purple/500 */
+  --button-fill-brand-secondary-hover: #5F40DC; /* alias: colors/purple/600 */
+  --button-fill-brand-secondary-pressed: #5036BA; /* alias: colors/purple/700 */
+  --button-fill-brand-secondary-focused: #34295E; /* alias: colors/purple/800 */
+  --button-fill-brand-secondary-disabled: #E6E7EB; /* alias: colors/grey/200 */
+  --button-fill-brand-secondary-background: #F7F7FB; /* alias: colors/purple/50 */
+  --button-fill-base-active: #FFFFFF; /* alias: fill/base/active */
+  --button-fill-base-hover: #F3F4F6; /* alias: fill/base/hover */
+  --button-fill-base-pressed: #E6E7EB; /* alias: fill/base/pressed */
+  --button-fill-base-focused: #FFFFFF; /* alias: fill/base/active */
+  --button-fill-base-disabled: #6B7283; /* alias: colors/grey/500 */
+  --button-fill-base-background: rgba(255, 255, 255, 0.50); /* opacity: 50% */ /* alias: fill/base/invert-transparent */
+  --button-fill-base-invert: rgba(255, 255, 255, 0.50); /* opacity: 50% */ /* alias: colors/transparent/white/transparent-50 */
+  --background-feedback-success: #F1F9F5; /* alias: colors/green/50 */
+  --background-feedback-warning: #FCF9ED; /* alias: colors/yellow/50 */
+  --background-feedback-error: #FFEFEF; /* alias: colors/pink/50 */
+  --icon-feedback-success: #329A64; /* alias: colors/green/700 */
+  --icon-feedback-warning: #C79A05; /* alias: colors/yellow/700 */
+  --icon-feedback-error: #BB393B; /* alias: colors/pink/700 */
+  --toast-feedback-success: #F1F9F5; /* alias: colors/green/50 */
+  --toast-feedback-warning: #FCF9ED; /* alias: colors/yellow/50 */
+  --toast-feedback-error: #FCF0EE; /* alias: colors/red/50 */
+  --toast-feedback-success-transparent: rgba(83, 202, 141, 0.10); /* opacity: 10% */ /* alias: colors/green/transparent-10 */
+  --toast-feedback-warning-transparent: rgba(253, 201, 33, 0.10); /* opacity: 10% */ /* alias: colors/yellow/transparent-10 */
+  --toast-feedback-error-transparent: rgba(241, 81, 45, 0.10); /* opacity: 10% */ /* alias: colors/red/transparent-10 */
+  --toast-feedback-info-transparent: rgba(133, 134, 137, 0.10); /* opacity: 10% */ /* alias: colors/grey/transparent-10 */
+  --toast-feedback-primary-transparent: rgba(107, 71, 245, 0.10); /* opacity: 10% */ /* alias: colors/purple/transparent-10 */
+  --border-feedback-success: #2A7950; /* alias: colors/green/800 */
+  --border-feedback-warning: #9B7908; /* alias: colors/yellow/800 */
+  --border-feedback-error: #BB393B; /* alias: colors/pink/700 */
+  --border-base-focused: #7859F6; /* alias: colors/purple/400 */
+  --fill-base-primary: #030713; /* alias: colors/grey/950 */
+  --fill-base-secondary: #364153; /* alias: colors/grey/700 */
+  --fill-base-tertiary: #6B7283; /* alias: colors/grey/500 */
+  --fill-base-disabled: #F9FAFC; /* alias: colors/grey/50 */
+  --fill-base-invert-transparent: rgba(255, 255, 255, 0.50); /* opacity: 50% */ /* alias: colors/transparent/white/transparent-50 */
+  --fill-base-divider: #6B7283; /* alias: colors/grey/500 */
+  --fill-base-focused: #000000; /* alias: colors/black */
+  --fill-base-invert: #FFFFFF; /* alias: colors/transparent/white/solid */
+  --icon-base-primary: #000000; /* alias: colors/black */
+  --icon-base-secondary: #1E2939; /* alias: colors/grey/800 */
+  --icon-base-tertiary: #6B7283; /* alias: colors/grey/500 */
+  --icon-base-invert-transparent: rgba(255, 255, 255, 0.50); /* opacity: 50% */ /* alias: colors/transparent/white/transparent-50 */
+  --icon-base-invert: #FFFFFF; /* alias: colors/transparent/white/solid */
+  --fill-base-active: #FFFFFF; /* alias: colors/transparent/white/solid */
+  --fill-base-hover: #F3F4F6; /* alias: colors/grey/100 */
+  --fill-base-pressed: #E6E7EB; /* alias: colors/grey/200 */
+  --border-brand-primary-active: #6B47F5; /* alias: colors/branding/Tawuniya/Primary Color */
+  --border-brand-primary-hover: #5F40DC; /* alias: colors/purple/600 */
+  --border-brand-primary-pressed: #5036BA; /* alias: colors/purple/700 */
+  --border-brand-primary-focused: #6B47F5; /* alias: colors/branding/Tawuniya/Primary Color */
+  --border-brand-primary-disabled: #D6D1ED; /* alias: colors/purple/100 */
+  --border-brand-primary-background: #F7F7FB; /* alias: colors/purple/50 */
+  --text-brand-secondary-active: #34295E; /* alias: colors/purple/800 */
+  --text-brand-secondary-hover: #5036BA; /* alias: colors/purple/700 */
+  --text-brand-secondary-pressed: #110B27; /* alias: colors/purple/900 */
+  --text-brand-secondary-focused: #34295E; /* alias: colors/purple/800 */
+  --text-brand-secondary-disabled: #D6D1ED; /* alias: colors/purple/100 */
+  --text-brand-secondary-background: #F7F7FB; /* alias: colors/purple/50 */
+  --icon-brand-pink-active: #FF6365; /* alias: colors/pink/500 */
+  --icon-brand-pink-hover: #DD4D4F; /* alias: colors/pink/600 */
+  --icon-brand-pink-pressed: #BB393B; /* alias: colors/pink/700 */
+  --icon-brand-pink-focused: #FF6365; /* alias: colors/pink/500 */
+  --icon-brand-pink-disabled: #FFDBDB; /* alias: colors/pink/100 */
+  --icon-brand-pink-background: #FFEFEF; /* alias: colors/pink/50 */
+  --icon-brand-green-active: #80EBBA; /* alias: colors/vivid/500 */
+  --icon-brand-green-hover: #6BCEA0; /* alias: colors/vivid/600 */
+  --icon-brand-green-pressed: #57B187; /* alias: colors/vivid/700 */
+  --icon-brand-green-focused: #80EBBA; /* alias: colors/vivid/500 */
+  --icon-brand-green-disabled: #D5FCE8; /* alias: colors/vivid/100 */
+  --icon-brand-green-background: #F4FFFA; /* alias: colors/vivid/50 */
+  --button-text-brand-green-active: #80EBBA; /* alias: colors/vivid/500 */
+  --button-text-brand-green-hover: #6BCEA0; /* alias: colors/vivid/600 */
+  --button-text-brand-green-pressed: #57B187; /* alias: colors/vivid/700 */
+  --button-text-brand-green-focused: #80EBBA; /* alias: colors/vivid/500 */
+  --button-text-brand-green-disabled: #D5FCE8; /* alias: colors/vivid/100 */
+  --button-text-brand-green-background: #F4FFFA; /* alias: colors/vivid/50 */
+  --button-icon-base-invert: #000000; /* alias: colors/black */
+  --button-fill-brand-primary-outline-pressed: rgba(107, 71, 245, 0.10); /* opacity: 10% */ /* alias: colors/purple/transparent-10 */
+  --button-fill-brand-secondary-outline-pressed: #F7F7FB; /* alias: colors/purple/50 */
+  --button-fill-danger-active: #BC2F10; /* alias: colors/red/700 */
+  --button-fill-danger-hover: #E53710; /* alias: colors/red/600 */
+  --button-fill-danger-pressed: #BC2F10; /* alias: colors/red/700 */
+  --button-fill-danger-focused: #F1512D; /* alias: colors/red/500 */
+  --button-fill-danger-disabled: rgba(133, 134, 137, 0.10); /* opacity: 10% */ /* alias: colors/grey/transparent-10 */
+  --button-fill-danger-background: #FCF0EE; /* alias: colors/red/50 */
+  --button-fill-danger-outline-pressed: #F7D2CA; /* alias: colors/red/100 */
+  --button-border-danger-active: #BC2F10; /* alias: colors/red/700 */
+  --button-border-danger-hover: #E53710; /* alias: colors/red/600 */
+  --button-border-danger-pressed: #BC2F10; /* alias: colors/red/700 */
+  --button-border-danger-focused: #F1512D; /* alias: colors/red/500 */
+  --button-border-danger-disabled: #F7D2CA; /* alias: colors/red/100 */
+  --button-border-danger-background: #FCF0EE; /* alias: colors/red/50 */
+  --button-border-danger-outline-pressed: #F7D2CA; /* alias: colors/red/100 */
+  --button-text-danger-active: #BC2F10; /* alias: colors/red/700 */
+  --button-text-danger-hover: #E53710; /* alias: colors/red/600 */
+  --button-text-danger-pressed: #BC2F10; /* alias: colors/red/700 */
+  --button-text-danger-focused: #F1512D; /* alias: colors/red/500 */
+  --button-text-danger-disabled: #6B7283; /* alias: colors/grey/500 */
+  --button-text-danger-background: #FCF0EE; /* alias: colors/red/50 */
+  --button-text-danger-outline-pressed: #F7D2CA; /* alias: colors/red/100 */
+  --button-icon-danger-active: #BC2F10; /* alias: colors/red/700 */
+  --button-icon-danger-hover: #E53710; /* alias: colors/red/600 */
+  --button-icon-danger-pressed: #BC2F10; /* alias: colors/red/700 */
+  --button-icon-danger-focused: #F1512D; /* alias: colors/red/500 */
+  --button-icon-danger-disabled: #6B7283; /* alias: colors/grey/500 */
+  --button-icon-danger-background: #FCF0EE; /* alias: colors/red/50 */
+  --button-icon-danger-outline-pressed: #F7D2CA; /* alias: colors/red/100 */
+  --button-fill-success-active: #53CA8D; /* alias: colors/green/500 */
+  --button-fill-success-hover: #3ABB78; /* alias: colors/green/600 */
+  --button-fill-success-pressed: #329A64; /* alias: colors/green/700 */
+  --button-fill-success-focused: #53CA8D; /* alias: colors/green/500 */
+  --button-fill-success-disabled: rgba(133, 134, 137, 0.10); /* opacity: 10% */ /* alias: colors/grey/transparent-10 */
+  --button-fill-success-background: #F1F9F5; /* alias: colors/green/50 */
+  --button-fill-success-outline-pressed: #D3EEE0; /* alias: colors/green/100 */
+  --button-border-success-active: #53CA8D; /* alias: colors/green/500 */
+  --button-border-success-hover: #3ABB78; /* alias: colors/green/600 */
+  --button-border-success-pressed: #329A64; /* alias: colors/green/700 */
+  --button-border-success-focused: #53CA8D; /* alias: colors/green/500 */
+  --button-border-success-disabled: #D3EEE0; /* alias: colors/green/100 */
+  --button-border-success-background: #F1F9F5; /* alias: colors/green/50 */
+  --button-border-success-outline-pressed: #D3EEE0; /* alias: colors/green/100 */
+  --button-text-success-active: #53CA8D; /* alias: colors/green/500 */
+  --button-text-success-hover: #3ABB78; /* alias: colors/green/600 */
+  --button-text-success-pressed: #329A64; /* alias: colors/green/700 */
+  --button-text-success-focused: #53CA8D; /* alias: colors/green/500 */
+  --button-text-success-disabled: #6B7283; /* alias: colors/grey/500 */
+  --button-text-success-background: #F1F9F5; /* alias: colors/green/50 */
+  --button-text-success-outline-pressed: #D3EEE0; /* alias: colors/green/100 */
+  --button-icon-success-active: #53CA8D; /* alias: colors/green/500 */
+  --button-icon-success-hover: #3ABB78; /* alias: colors/green/600 */
+  --button-icon-success-pressed: #329A64; /* alias: colors/green/700 */
+  --button-icon-success-focused: #53CA8D; /* alias: colors/green/500 */
+  --button-icon-success-disabled: #6B7283; /* alias: colors/grey/500 */
+  --button-icon-success-background: #F1F9F5; /* alias: colors/green/50 */
+  --button-icon-success-outline-pressed: #D3EEE0; /* alias: colors/green/100 */
+  --toast-feedback-primary: #F7F7FB; /* alias: colors/purple/50 */
+  --fill-base-vitality: #E71656; /* alias: colors/vitality */
+  --fill-base-drive: #FF742C; /* alias: colors/drive */
+  --controls-base-primary: #101828; /* alias: colors/grey/900 */
+  --controls-base-secondary: #364153; /* alias: colors/grey/700 */
+  --controls-base-tertiary: #6B7283; /* alias: colors/grey/500 */
+  --controls-base-disabled: #E6E7EB; /* alias: colors/grey/200 */
+  --controls-base-invert: rgba(255, 255, 255, 0.50); /* opacity: 50% */ /* alias: colors/transparent/white/transparent-50 */
+  --controls-base-divider: #F3F4F6; /* alias: colors/grey/100 */
+  --controls-base-focused: #7859F6; /* alias: colors/purple/400 */
+  --icon-base-button: #F6F6F6; /* alias: colors/grey/25 */
+  --cards-brand-primary-background: #6B47F5; /* alias: colors/branding/Tawuniya/Primary Color */
+  --cards-brand-secondary-background: #34295E; /* alias: colors/purple/800 */
+  --tag-success: rgba(83, 202, 141, 0.10); /* opacity: 10% */ /* alias: colors/green/transparent-10 */
+  --tag-warning: rgba(253, 201, 33, 0.10); /* opacity: 10% */ /* alias: colors/yellow/transparent-10 */
+  --tag-error: rgba(241, 81, 45, 0.10); /* opacity: 10% */ /* alias: colors/red/transparent-10 */
+  --tag-primary: rgba(107, 71, 245, 0.10); /* opacity: 10% */ /* alias: colors/purple/transparent-10 */
+  --tag-success-transparent: #F1F9F5; /* alias: colors/green/50 */
+  --tag-warning-transparent: #FCF9ED; /* alias: colors/yellow/50 */
+  --tag-error-transparent: #FCF0EE; /* alias: colors/red/50 */
+  --tag-info-transparent: #F9FAFC; /* alias: colors/grey/50 */
+  --tag-primary-transparent: #F7F7FB; /* alias: colors/purple/50 */
+  --tag-in-progress-fill: #F7F7FB; /* alias: colors/purple/50 */
+  --tag-in-progress-text: #6B47F5; /* alias: colors/branding/Tawuniya/Primary Color */
+  --tag-in-progress-icon: #6B47F5; /* alias: colors/branding/Tawuniya/Primary Color */
+  --tag-pending-fill: #F9FAFC; /* alias: colors/grey/50 */
+  --tag-pending-text: #6B7283; /* alias: colors/grey/500 */
+  --tag-pending-icon: #6B7283; /* alias: colors/grey/500 */
+  --tag-error-fill: #FFEFEF; /* alias: colors/pink/50 */
+  --tag-error-text: #BC2F10; /* alias: colors/red/700 */
+  --tag-error-icon: #BC2F10; /* alias: colors/red/700 */
+  --tag-warning-fill: #FCF9ED; /* alias: colors/yellow/50 */
+  --tag-warning-text: #9B7908; /* alias: colors/yellow/800 */
+  --tag-warning-icon: #9B7908; /* alias: colors/yellow/800 */
+  --tag-success-fill: #F1F9F5; /* alias: colors/green/50 */
+  --tag-success-text: #329A64; /* alias: colors/green/700 */
+  --tag-success-icon: #329A64; /* alias: colors/green/700 */
+  --tag-info-fill: #F9FAFC; /* alias: colors/grey/50 */
+  --tag-info-text: #364153; /* alias: colors/grey/700 */
+  --tag-info-icon: #364153; /* alias: colors/grey/700 */
+  --tag-primary-fill: #6B47F5; /* alias: colors/branding/Tawuniya/Primary Color */
+  --tag-primary-text: #FFFFFF; /* alias: text/base/invert */
+  --tag-primary-icon: #FFFFFF; /* alias: icon/base/invert */
+  --tag-secondary-fill: #34295E; /* alias: colors/purple/800 */
+  --tag-secondary-text: #FFFFFF; /* alias: text/base/invert */
+  --tag-secondary-icon: #FFFFFF; /* alias: icon/base/invert */
+  --tag-outline-border: #6B47F5; /* alias: colors/branding/Tawuniya/Primary Color */
+  --tag-outline-text: #6B47F5; /* alias: colors/branding/Tawuniya/Primary Color */
+  --tag-outline-icon: #6B47F5; /* alias: colors/branding/Tawuniya/Primary Color */
+  --background-body: #F9FAFC; /* alias: colors/grey/50 */
+  --toast-feedback-info: #F3F4F6; /* alias: colors/grey/100 */
+  --fill-base-brand: #7859F6; /* alias: colors/purple/400 */
+  --fill-base-brand-dark: #34295E; /* alias: colors/purple/800 */
+  --branding-DXE-logo-primary: #6B47F5; /* alias: colors/branding/Tawuniya/Primary Color */
+  --branding-DXE-logo-invert: #FFFFFF; /* alias: colors/transparent/white/solid */
+  --cards-policy-Draft-background: #5036BA; /* alias: colors/purple/700 */
+  --cards-policy-Expired-expired: #364153; /* alias: colors/grey/700 */
+  --cards-policy-Active-Active: #34295E; /* alias: cards/brand-secondary/background */
+  --background-transparent-selected: rgba(107, 71, 245, 0.10); /* opacity: 10% */ /* alias: colors/purple/transparent-10 */
+  --branding-vitality-bronze-card-background: #FFF7EF; /* alias: colors/Additonal/Off white */
+  --branding-vitality-bronze-tag-color: #CE8946; /* alias: colors/Additonal/Bronze */
+  --branding-vitality-silver-card-background: #FFFFFF; /* alias: colors/transparent/white/solid */
+  --branding-vitality-silver-tag-color: #B0B0B0; /* alias: colors/Additonal/Gray */
+  --branding-vitality-gold-card-background: #FCF9ED; /* alias: colors/yellow/50 */
+  --branding-vitality-gold-tag-color: #C79A05; /* alias: colors/yellow/700 */
+  --branding-vitality-platinum-card-background: #FFFFFF; /* alias: colors/transparent/white/solid */
+  --branding-vitality-platinum-tag-color: #636363; /* alias: colors/Additonal/Gray 2 */
+  --button-text-brand-primary-Invert: #FFFFFF; /* alias: colors/transparent/white/solid */
+  --button-text-brand-secondary-Invert: #FFFFFF; /* alias: colors/transparent/white/solid */
+  --cards-policy-Active-Pattern: #453689; /* alias: colors/purple/750 */
+  --icon-feedback-Info: #3B82F6;
+  --background-feedback-info: #EFF6FF;
+  --text-feedback-info: #2563EB;
+}
+
+/* --------------------------------------------------------------------------
+ * Semantic Color Tokens
+ * Collection: Colors (V4) - Dark Mode
+ * -------------------------------------------------------------------------- */
+[data-theme="dark"] {
+  --background-secondary: #292A2E; /* alias: colors/neutral/Gray110 */
+  --background-primary: #000000; /* alias: colors/neutral/Black */
+  --background-transparent-primary: #BFBFBF; /* alias: colors dark/White/White 500 */
+  --background-transparent-secondary: rgba(255, 255, 255, 0.10); /* opacity: 10% */ /* alias: colors/transparent/white/transparent-10 */
+  --fill-brand-primary-active: #7859F6; /* alias: colors/purple/400 */
+  --fill-brand-primary-hover: #6B47F5; /* alias: colors/branding/Tawuniya/Primary Color */
+  --fill-brand-primary-pressed: #5F40DC; /* alias: colors/purple/600 */
+  --fill-brand-primary-disabled: #D6D1ED; /* alias: colors/purple/100 */
+  --fill-brand-primary-focused: #5F40DC; /* alias: colors/purple/600 */
+  --fill-brand-primary-background: #FFFFFF; /* alias: colors/neutral/White */
+  --fill-brand-secondary-active: #FFFFFF; /* alias: colors/transparent/white/solid */
+  --fill-brand-secondary-hover: #AA96F9; /* alias: colors/purple/200 */
+  --fill-brand-secondary-pressed: #9075F7; /* alias: colors/purple/300 */
+  --fill-brand-secondary-focused: #D6D1ED; /* alias: colors/purple/100 */
+  --fill-brand-secondary-disabled: #383838; /* alias: colors dark/White/White 200 */
+  --fill-brand-secondary-background: #000000; /* alias: colors/neutral/Black */
+  --fill-feedback-success: #329A64; /* alias: colors/green/700 */
+  --fill-feedback-warning: #4A3B07; /* alias: colors/yellow/900 */
+  --fill-feedback-error: #FF6365; /* alias: colors/pink/500 */
+  --fill-brand-pink-active: #FF6365; /* alias: colors/pink/500 */
+  --fill-brand-pink-hover: #DD4D4F; /* alias: colors/pink/600 */
+  --fill-brand-pink-pressed: #BB393B; /* alias: colors/pink/700 */
+  --fill-brand-pink-focused: #FF6365; /* alias: colors/pink/500 */
+  --fill-brand-pink-disabled: #FFDBDB; /* alias: colors/pink/100 */
+  --fill-brand-pink-background: #FFEFEF; /* alias: colors/pink/50 */
+  --fill-brand-vivid-green-active: #80EBBA; /* alias: colors/vivid/500 */
+  --fill-brand-vivid-green-hover: #6BCEA0; /* alias: colors/vivid/600 */
+  --fill-brand-vivid-green-pressed: #57B187; /* alias: colors/vivid/700 */
+  --fill-brand-vivid-green-focused: #80EBBA; /* alias: colors/vivid/500 */
+  --fill-brand-vivid-green-disabled: #D5FCE8; /* alias: colors/vivid/100 */
+  --fill-brand-vivid-green-background: #F4FFFA; /* alias: colors/vivid/50 */
+  --text-base-primary: #FFFFFF; /* alias: colors/transparent/white/solid */
+  --text-base-secondary: #A1A1A1; /* alias: colors/neutral/Gray60 */
+  --text-base-tertiary: #BFBFBF; /* alias: colors dark/White/White 500 */
+  --text-base-disabled: #9A9A9A; /* alias: colors dark/White/White 300 */
+  --text-base-invert: #000000; /* alias: colors/neutral/Black */
+  --text-base-secondary-invert: rgba(255, 255, 255, 0.60); /* opacity: 60% */ /* alias: colors/transparent/white/transparent-60 */
+  --text-brand-primary-active: #FFFFFF; /* alias: colors/neutral/White */
+  --text-brand-primary-hover: #7859F6; /* alias: colors/purple/400 */
+  --text-brand-primary-pressed: #6B47F5; /* alias: colors/branding/Tawuniya/Primary Color */
+  --text-brand-primary-focused: #9075F7; /* alias: colors/purple/300 */
+  --text-brand-primary-disabled: #D6D1ED; /* alias: colors/purple/100 */
+  --text-brand-primary-background: #F7F7FB; /* alias: colors/purple/50 */
+  --text-feedback-success: #329A64; /* alias: colors/green/700 */
+  --text-feedback-warning: #9B7908; /* alias: colors/yellow/800 */
+  --text-feedback-error: #FFCCCD; /* alias: colors/pink/200 */
+  --text-brand-green-active: #80EBBA; /* alias: colors/vivid/500 */
+  --text-brand-green-hover: #6BCEA0; /* alias: colors/vivid/600 */
+  --text-brand-green-pressed: #57B187; /* alias: colors/vivid/700 */
+  --text-brand-green-focused: #80EBBA; /* alias: colors/vivid/500 */
+  --text-brand-green-disabled: #D5FCE8; /* alias: colors/vivid/100 */
+  --text-brand-green-background: #F4FFFA; /* alias: colors/vivid/50 */
+  --text-brand-pink-active: #FF6365; /* alias: colors/pink/500 */
+  --text-brand-pink-hover: #DD4D4F; /* alias: colors/pink/600 */
+  --text-brand-pink-pressed: #BB393B; /* alias: colors/pink/700 */
+  --text-brand-pink-focused: #FF6365; /* alias: colors/pink/500 */
+  --text-brand-pink-disabled: #FFDBDB; /* alias: colors/pink/100 */
+  --text-brand-pink-background: #FFEFEF; /* alias: colors/pink/50 */
+  --background-tertiary: #505052; /* alias: colors/neutral/Gray90 */
+  --border-base-primary: #A1A1A1; /* alias: colors/neutral/Gray60 */
+  --border-base-secondary: #292A2E; /* alias: colors/neutral/Gray100 */
+  --border-base-tertiary: #383838; /* alias: colors dark/White/White 200 */
+  --border-base-disabled: #292A2E; /* alias: colors/neutral/Gray110 */
+  --border-base-invert: rgba(255, 255, 255, 0.50); /* opacity: 50% */ /* alias: colors/transparent/white/transparent-50 */
+  --border-base-divider: #292A2E; /* alias: colors/neutral/Gray100 */
+  --button-fill-brand-primary-active: #6B47F5; /* alias: colors/branding/Tawuniya/Primary Color */
+  --button-fill-brand-primary-hover: #6B47F5; /* alias: colors/branding/Tawuniya/Primary Color */
+  --button-fill-brand-primary-pressed: #5F40DC; /* alias: colors/purple/600 */
+  --button-fill-brand-primary-focused: #5F40DC; /* alias: colors/purple/600 */
+  --button-fill-brand-primary-disabled: #34295E; /* alias: colors/purple/800 */
+  --button-fill-brand-primary-background: #FFFFFF; /* alias: colors/neutral/White */
+  --button-border-base-active: #FFFFFF; /* alias: colors/neutral/White */
+  --button-border-base-hover: #FFFFFF; /* alias: colors/neutral/White */
+  --button-border-base-pressed: #101828; /* alias: colors/grey/900 */
+  --button-border-base-focused: #030713; /* alias: colors/grey/950 */
+  --button-border-base-disabled: #6B7283; /* alias: colors/grey/500 */
+  --button-text-base-default: #000000; /* alias: colors/neutral/Black */
+  --button-text-base-disabled: rgba(255, 255, 255, 0.70); /* opacity: 70% */ /* alias: colors/transparent/white/transparent-70 */
+  --button-text-brand-primary-active: #FFFFFF; /* alias: colors/transparent/white/solid */
+  --button-text-brand-primary-hover: #D6D1ED; /* alias: colors/purple/100 */
+  --button-text-brand-primary-pressed: #D6D1ED; /* alias: colors/purple/100 */
+  --button-text-brand-primary-focused: #9075F7; /* alias: colors/purple/300 */
+  --button-text-brand-primary-disabled: #6B7283; /* alias: colors/grey/500 */
+  --button-text-brand-primary-background: #F7F7FB; /* alias: colors/purple/50 */
+  --button-text-brand-secondary-active: #FFFFFF; /* alias: colors/neutral/White */
+  --button-text-brand-secondary-hover: #AA96F9; /* alias: colors/purple/200 */
+  --button-text-brand-secondary-pressed: #9075F7; /* alias: colors/purple/300 */
+  --button-text-brand-secondary-focused: #D6D1ED; /* alias: colors/purple/100 */
+  --button-text-brand-secondary-disabled: #5F40DC; /* alias: colors/purple/600 */
+  --button-text-brand-secondary-background: #F7F7FB; /* alias: colors/purple/50 */
+  --button-text-brand-pink-active: #FF6365; /* alias: colors/pink/500 */
+  --button-text-brand-pink-hover: #FFCCCD; /* alias: colors/pink/200 */
+  --button-text-brand-pink-pressed: #FFA9A2; /* alias: colors/pink/300 */
+  --button-text-brand-pink-focused: #FFDBDB; /* alias: colors/pink/100 */
+  --button-text-brand-pink-disabled: #DD4D4F; /* alias: colors/pink/600 */
+  --button-text-brand-pink-background: #FFEFEF; /* alias: colors/pink/50 */
+  --button-fill-transparent-active: rgba(255, 255, 255, 0.50); /* opacity: 50% */ /* alias: colors/transparent/white/transparent-50 */
+  --button-fill-transparent-hover: rgba(255, 255, 255, 0.60); /* opacity: 60% */ /* alias: colors/transparent/white/transparent-60 */
+  --button-fill-transparent-pressed: rgba(255, 255, 255, 0.70); /* opacity: 70% */ /* alias: colors/transparent/white/transparent-70 */
+  --button-fill-transparent-focused: rgba(255, 255, 255, 0.50); /* opacity: 50% */ /* alias: colors/transparent/white/transparent-50 */
+  --button-fill-transparent-disabled: rgba(255, 255, 255, 0.20); /* opacity: 20% */ /* alias: colors/transparent/white/transparent-20 */
+  --button-border-base-invert: #000000; /* alias: colors/neutral/Black */
+  --button-icon-base-active: #000000; /* alias: colors/neutral/Black */
+  --button-icon-base-disabled: rgba(255, 255, 255, 0.70); /* opacity: 70% */ /* alias: colors/transparent/white/transparent-70 */
+  --button-border-brand-primary-active: #FFFFFF; /* alias: colors/transparent/white/solid */
+  --button-border-brand-primary-hover: #6B47F5; /* alias: colors/branding/Tawuniya/Primary Color */
+  --button-border-brand-primary-pressed: #5F40DC; /* alias: colors/purple/600 */
+  --button-border-brand-primary-focused: #7859F6; /* alias: colors/purple/400 */
+  --button-border-brand-primary-disabled: #5036BA; /* alias: colors/purple/700 */
+  --button-border-brand-primary-background: #F7F7FB; /* alias: colors/purple/50 */
+  --button-border-brand-secondary-active: #FFFFFF; /* alias: colors/neutral/White */
+  --button-border-brand-secondary-hover: #AA96F9; /* alias: colors/purple/200 */
+  --button-border-brand-secondary-pressed: #9075F7; /* alias: colors/purple/300 */
+  --button-border-brand-secondary-focused: #D6D1ED; /* alias: colors/purple/100 */
+  --button-border-brand-secondary-disabled: #5036BA; /* alias: colors/purple/700 */
+  --button-border-brand-secondary-background: #F7F7FB; /* alias: colors/purple/50 */
+  --button-border-transparent-active: rgba(255, 255, 255, 0.50); /* opacity: 50% */ /* alias: colors/transparent/white/transparent-50 */
+  --button-border-transparent-hover: rgba(255, 255, 255, 0.60); /* opacity: 60% */ /* alias: colors/transparent/white/transparent-60 */
+  --button-border-transparent-pressed: rgba(255, 255, 255, 0.70); /* opacity: 70% */ /* alias: colors/transparent/white/transparent-70 */
+  --button-border-transparent-focused: rgba(255, 255, 255, 0.50); /* opacity: 50% */ /* alias: colors/transparent/white/transparent-50 */
+  --button-border-transparent-disabled: rgba(255, 255, 255, 0.20); /* opacity: 20% */ /* alias: colors/transparent/white/transparent-20 */
+  --button-icon-brand-primary-active: #9075F7; /* alias: colors/purple/300 */
+  --button-icon-brand-primary-hover: #D6D1ED; /* alias: colors/purple/100 */
+  --button-icon-brand-primary-pressed: #D6D1ED; /* alias: colors/purple/100 */
+  --button-icon-brand-primary-focused: #9075F7; /* alias: colors/purple/300 */
+  --button-icon-brand-primary-disabled: #6B7283; /* alias: colors/grey/500 */
+  --button-icon-brand-primary-background: #F7F7FB; /* alias: colors/purple/50 */
+  --button-icon-brand-secondary-active: #FFFFFF; /* alias: colors/neutral/White */
+  --button-icon-brand-secondary-hover: #AA96F9; /* alias: colors/purple/200 */
+  --button-icon-brand-secondary-pressed: #9075F7; /* alias: colors/purple/300 */
+  --button-icon-brand-secondary-focused: #D6D1ED; /* alias: colors/purple/100 */
+  --button-icon-brand-secondary-disabled: #5F40DC; /* alias: colors/purple/600 */
+  --button-icon-brand-secondary-background: #F7F7FB; /* alias: colors/purple/50 */
+  --button-icon-brand-pink-active: #FF6365; /* alias: colors/pink/500 */
+  --button-icon-brand-pink-hover: #DD4D4F; /* alias: colors/pink/600 */
+  --button-icon-brand-pink-pressed: #BB393B; /* alias: colors/pink/700 */
+  --button-icon-brand-pink-focused: #FF6365; /* alias: colors/pink/500 */
+  --button-icon-brand-pink-disabled: #FFDBDB; /* alias: colors/pink/100 */
+  --button-icon-brand-pink-background: #FFEFEF; /* alias: colors/pink/50 */
+  --icon-brand-primary-active: #FFFFFF; /* alias: colors/transparent/white/solid */
+  --icon-brand-primary-hover: #7859F6; /* alias: colors/purple/400 */
+  --icon-brand-primary-pressed: #7859F6; /* alias: colors/purple/400 */
+  --icon-brand-primary-focused: #9075F7; /* alias: colors/purple/300 */
+  --icon-brand-primary-disabled: #6B7283; /* alias: colors/grey/500 */
+  --icon-brand-primary-background: #F7F7FB; /* alias: colors/purple/50 */
+  --icon-brand-secondary-active: #FFFFFF; /* alias: colors/transparent/white/solid */
+  --icon-brand-secondary-hover: #AA96F9; /* alias: colors/purple/200 */
+  --icon-brand-secondary-pressed: #9075F7; /* alias: colors/purple/300 */
+  --icon-brand-secondary-focused: #D6D1ED; /* alias: colors/purple/100 */
+  --icon-brand-secondary-disabled: #6B7283; /* alias: colors/grey/500 */
+  --icon-brand-secondary-background: #34295E; /* alias: colors/purple/800 */
+  --icon-base-active: #FFFFFF; /* alias: colors/transparent/white/solid */
+  --icon-base-disabled: #292A2E; /* alias: colors/neutral/Gray100 */
+  --button-fill-brand-secondary-active: #FFFFFF; /* alias: colors/neutral/White */
+  --button-fill-brand-secondary-hover: #AA96F9; /* alias: colors/purple/200 */
+  --button-fill-brand-secondary-pressed: #9075F7; /* alias: colors/purple/300 */
+  --button-fill-brand-secondary-focused: #D6D1ED; /* alias: colors/purple/100 */
+  --button-fill-brand-secondary-disabled: #364153; /* alias: colors/grey/700 */
+  --button-fill-brand-secondary-background: #34295E; /* alias: colors/purple/800 */
+  --button-fill-base-active: #FFFFFF; /* alias: colors/neutral/White */
+  --button-fill-base-hover: #F3F4F6; /* alias: fill/base/hover */
+  --button-fill-base-pressed: #E6E7EB; /* alias: fill/base/pressed */
+  --button-fill-base-focused: #000000; /* alias: colors/black */
+  --button-fill-base-disabled: rgba(133, 134, 137, 0.10); /* opacity: 10% */ /* alias: colors/grey/transparent-10 */
+  --button-fill-base-background: #F9FAFC; /* alias: colors/grey/50 */
+  --button-fill-base-invert: rgba(133, 134, 137, 0.10); /* opacity: 10% */ /* alias: colors/grey/transparent-10 */
+  --background-feedback-success: #6FD29F; /* alias: colors dark/Green/Green 500 */
+  --background-feedback-warning: #FFF7E0; /* alias: colors dark/Yellow/Yellow 1000 */
+  --background-feedback-error: #9D5354; /* alias: colors dark/Pink/Pink 100 */
+  --icon-feedback-success: #2A7950; /* alias: colors/green/800 */
+  --icon-feedback-warning: #4A3B07; /* alias: colors/yellow/900 */
+  --icon-feedback-error: #99292A; /* alias: colors/pink/800 */
+  --toast-feedback-success: rgba(83, 202, 141, 0.10); /* opacity: 10% */ /* alias: colors/green/transparent-10 */
+  --toast-feedback-warning: #FCF9ED; /* alias: colors/yellow/50 */
+  --toast-feedback-error: #FCF0EE; /* alias: colors/red/50 */
+  --toast-feedback-success-transparent: rgba(83, 202, 141, 0.10); /* opacity: 10% */ /* alias: colors/green/transparent-10 */
+  --toast-feedback-warning-transparent: rgba(253, 201, 33, 0.10); /* opacity: 10% */ /* alias: colors/yellow/transparent-10 */
+  --toast-feedback-error-transparent: rgba(241, 81, 45, 0.10); /* opacity: 10% */ /* alias: colors/red/transparent-10 */
+  --toast-feedback-info-transparent: rgba(133, 134, 137, 0.10); /* opacity: 10% */ /* alias: colors/grey/transparent-10 */
+  --toast-feedback-primary-transparent: rgba(107, 71, 245, 0.10); /* opacity: 10% */ /* alias: colors/purple/transparent-10 */
+  --border-feedback-success: #53CA8D; /* alias: colors/green/500 */
+  --border-feedback-warning: #FDC921; /* alias: colors/yellow/500 */
+  --border-feedback-error: #F1512D; /* alias: colors/red/500 */
+  --border-base-focused: #FFFFFF; /* alias: colors/transparent/white/solid */
+  --fill-base-primary: #FFFFFF; /* alias: colors/neutral/White */
+  --fill-base-secondary: #D1D5DB; /* alias: colors/grey/300 */
+  --fill-base-tertiary: #9AA1AF; /* alias: colors/grey/400 */
+  --fill-base-disabled: #292A2E; /* alias: colors/neutral/Gray100 */
+  --fill-base-invert-transparent: #292A2E; /* alias: colors/neutral/Gray110 */
+  --fill-base-divider: #292A2E; /* alias: colors/neutral/Gray100 */
+  --fill-base-focused: #FFFFFF; /* alias: colors/transparent/white/solid */
+  --fill-base-invert: #000000; /* alias: colors/neutral/Black */
+  --icon-base-primary: #FFFFFF; /* alias: colors/neutral/White */
+  --icon-base-secondary: #A1A1A1; /* alias: colors/neutral/Gray60 */
+  --icon-base-tertiary: #9AA1AF; /* alias: colors/grey/400 */
+  --icon-base-invert-transparent: #A1A1A1; /* alias: colors/neutral/Gray60 */
+  --icon-base-invert: #000000; /* alias: colors/neutral/Black */
+  --fill-base-active: #292A2E; /* alias: colors/neutral/Gray110 */
+  --fill-base-hover: #424245; /* alias: colors dark/White/White 100 */
+  --fill-base-pressed: #1E2939; /* alias: colors/grey/800 */
+  --border-brand-primary-active: #FFFFFF; /* alias: colors/transparent/white/solid */
+  --border-brand-primary-hover: #7859F6; /* alias: colors/purple/400 */
+  --border-brand-primary-pressed: #6B47F5; /* alias: colors/branding/Tawuniya/Primary Color */
+  --border-brand-primary-focused: #9075F7; /* alias: colors/purple/300 */
+  --border-brand-primary-disabled: #D6D1ED; /* alias: colors/purple/100 */
+  --border-brand-primary-background: #F7F7FB; /* alias: colors/purple/50 */
+  --text-brand-secondary-active: #F7F7F7; /* alias: colors dark/White/White 1000 */
+  --text-brand-secondary-hover: #AA96F9; /* alias: colors/purple/200 */
+  --text-brand-secondary-pressed: #9075F7; /* alias: colors/purple/300 */
+  --text-brand-secondary-focused: #D6D1ED; /* alias: colors/purple/100 */
+  --text-brand-secondary-disabled: rgba(107, 71, 245, 0.10); /* opacity: 10% */ /* alias: colors/purple/transparent-10 */
+  --text-brand-secondary-background: #F7F7FB; /* alias: colors/purple/50 */
+  --icon-brand-pink-active: #FF6365; /* alias: colors/pink/500 */
+  --icon-brand-pink-hover: #DD4D4F; /* alias: colors/pink/600 */
+  --icon-brand-pink-pressed: #BB393B; /* alias: colors/pink/700 */
+  --icon-brand-pink-focused: #FF6365; /* alias: colors/pink/500 */
+  --icon-brand-pink-disabled: #FFDBDB; /* alias: colors/pink/100 */
+  --icon-brand-pink-background: #FFEFEF; /* alias: colors/pink/50 */
+  --icon-brand-green-active: #80EBBA; /* alias: colors/vivid/500 */
+  --icon-brand-green-hover: #6BCEA0; /* alias: colors/vivid/600 */
+  --icon-brand-green-pressed: #57B187; /* alias: colors/vivid/700 */
+  --icon-brand-green-focused: #80EBBA; /* alias: colors/vivid/500 */
+  --icon-brand-green-disabled: #D5FCE8; /* alias: colors/vivid/100 */
+  --icon-brand-green-background: #F4FFFA; /* alias: colors/vivid/50 */
+  --button-text-brand-green-active: #80EBBA; /* alias: colors/vivid/500 */
+  --button-text-brand-green-hover: #6BCEA0; /* alias: colors/vivid/600 */
+  --button-text-brand-green-pressed: #57B187; /* alias: colors/vivid/700 */
+  --button-text-brand-green-focused: #80EBBA; /* alias: colors/vivid/500 */
+  --button-text-brand-green-disabled: #D5FCE8; /* alias: colors/vivid/100 */
+  --button-text-brand-green-background: #F4FFFA; /* alias: colors/vivid/50 */
+  --button-icon-base-invert: #000000; /* alias: colors/neutral/Black */
+  --button-fill-brand-primary-outline-pressed: #110B27; /* alias: colors/purple/900 */
+  --button-fill-brand-secondary-outline-pressed: #110B27; /* alias: colors/purple/900 */
+  --button-fill-danger-active: #E53710; /* alias: colors/red/600 */
+  --button-fill-danger-hover: #BC2F10; /* alias: colors/red/700 */
+  --button-fill-danger-pressed: #932811; /* alias: colors/red/800 */
+  --button-fill-danger-focused: #932811; /* alias: colors/red/800 */
+  --button-fill-danger-disabled: #364153; /* alias: colors/grey/700 */
+  --button-fill-danger-background: #932811; /* alias: colors/red/800 */
+  --button-fill-danger-outline-pressed: #692111; /* alias: colors/red/900 */
+  --button-border-danger-active: #F7AD9C; /* alias: colors dark/Red/Red 500 */
+  --button-border-danger-hover: #F9C2B6; /* alias: colors dark/Red/Red 600 */
+  --button-border-danger-pressed: #FBD3CB; /* alias: colors dark/Red/Red 700 */
+  --button-border-danger-focused: #F3927C; /* alias: colors/red/300 */
+  --button-border-danger-disabled: #364153; /* alias: colors/grey/700 */
+  --button-border-danger-background: #FCF0EE; /* alias: colors/red/50 */
+  --button-border-danger-outline-pressed: #692111; /* alias: colors/red/900 */
+  --button-text-danger-active: #F3927C; /* alias: colors/red/300 */
+  --button-text-danger-hover: #F7D2CA; /* alias: colors/red/100 */
+  --button-text-danger-pressed: #F7D2CA; /* alias: colors/red/100 */
+  --button-text-danger-focused: #F3927C; /* alias: colors/red/300 */
+  --button-text-danger-disabled: #6B7283; /* alias: colors/grey/500 */
+  --button-text-danger-background: #FCF0EE; /* alias: colors/red/50 */
+  --button-text-danger-outline-pressed: #692111; /* alias: colors/red/900 */
+  --button-icon-danger-active: #F3927C; /* alias: colors/red/300 */
+  --button-icon-danger-hover: #F7D2CA; /* alias: colors/red/100 */
+  --button-icon-danger-pressed: #F7D2CA; /* alias: colors/red/100 */
+  --button-icon-danger-focused: #F3927C; /* alias: colors/red/300 */
+  --button-icon-danger-disabled: #6B7283; /* alias: colors/grey/500 */
+  --button-icon-danger-background: #FCF0EE; /* alias: colors/red/50 */
+  --button-icon-danger-outline-pressed: #692111; /* alias: colors/red/900 */
+  --button-fill-success-active: #3ABB78; /* alias: colors/green/600 */
+  --button-fill-success-hover: #329A64; /* alias: colors/green/700 */
+  --button-fill-success-pressed: #2A7950; /* alias: colors/green/800 */
+  --button-fill-success-focused: #2A7950; /* alias: colors/green/800 */
+  --button-fill-success-disabled: #364153; /* alias: colors/grey/700 */
+  --button-fill-success-background: #2A7950; /* alias: colors/green/800 */
+  --button-fill-success-outline-pressed: #22583C; /* alias: colors/green/900 */
+  --button-border-success-active: #53CA8D; /* alias: colors/green/500 */
+  --button-border-success-hover: #73D3A1; /* alias: colors/green/400 */
+  --button-border-success-pressed: #53CA8D; /* alias: colors/green/500 */
+  --button-border-success-focused: #94DCB6; /* alias: colors/green/300 */
+  --button-border-success-disabled: #364153; /* alias: colors/grey/700 */
+  --button-border-success-background: #F1F9F5; /* alias: colors/green/50 */
+  --button-border-success-outline-pressed: #22583C; /* alias: colors/green/900 */
+  --button-text-success-active: #94DCB6; /* alias: colors/green/300 */
+  --button-text-success-hover: #D3EEE0; /* alias: colors/green/100 */
+  --button-text-success-pressed: #D3EEE0; /* alias: colors/green/100 */
+  --button-text-success-focused: #94DCB6; /* alias: colors/green/300 */
+  --button-text-success-disabled: #6B7283; /* alias: colors/grey/500 */
+  --button-text-success-background: #F1F9F5; /* alias: colors/green/50 */
+  --button-text-success-outline-pressed: #22583C; /* alias: colors/green/900 */
+  --button-icon-success-active: #94DCB6; /* alias: colors/green/300 */
+  --button-icon-success-hover: #D3EEE0; /* alias: colors/green/100 */
+  --button-icon-success-pressed: #D3EEE0; /* alias: colors/green/100 */
+  --button-icon-success-focused: #94DCB6; /* alias: colors/green/300 */
+  --button-icon-success-disabled: #6B7283; /* alias: colors/grey/500 */
+  --button-icon-success-background: #F1F9F5; /* alias: colors/green/50 */
+  --button-icon-success-outline-pressed: #22583C; /* alias: colors/green/900 */
+  --toast-feedback-primary: #34295E; /* alias: colors/purple/800 */
+  --fill-base-vitality: #E71656; /* alias: colors/vitality */
+  --fill-base-drive: #FF742C; /* alias: colors/drive */
+  --controls-base-primary: #F3F4F6; /* alias: colors/grey/100 */
+  --controls-base-secondary: #E6E7EB; /* alias: colors/grey/200 */
+  --controls-base-tertiary: #D1D5DB; /* alias: colors/grey/300 */
+  --controls-base-disabled: #364153; /* alias: colors/grey/700 */
+  --controls-base-invert: rgba(255, 255, 255, 0.50); /* opacity: 50% */ /* alias: colors/transparent/white/transparent-50 */
+  --controls-base-divider: #9AA1AF; /* alias: colors/grey/400 */
+  --controls-base-focused: #000000; /* alias: colors/black */
+  --icon-base-button: #FFFFFF; /* alias: colors/transparent/white/solid */
+  --cards-brand-primary-background: #6B47F5; /* alias: colors/branding/Tawuniya/Primary Color */
+  --cards-brand-secondary-background: #110B27; /* alias: colors/purple/900 */
+  --tag-success: #F1F9F5; /* alias: colors/green/50 */
+  --tag-warning: #FCF9ED; /* alias: colors/yellow/50 */
+  --tag-error: #FCF0EE; /* alias: colors/red/50 */
+  --tag-primary: rgba(107, 71, 245, 0.10); /* opacity: 10% */ /* alias: colors/purple/transparent-10 */
+  --tag-success-transparent: rgba(83, 202, 141, 0.10); /* opacity: 10% */ /* alias: colors/green/transparent-10 */
+  --tag-warning-transparent: rgba(253, 201, 33, 0.10); /* opacity: 10% */ /* alias: colors/yellow/transparent-10 */
+  --tag-error-transparent: rgba(241, 81, 45, 0.10); /* opacity: 10% */ /* alias: colors/red/transparent-10 */
+  --tag-info-transparent: rgba(133, 134, 137, 0.10); /* opacity: 10% */ /* alias: colors/grey/transparent-10 */
+  --tag-primary-transparent: rgba(107, 71, 245, 0.10); /* opacity: 10% */ /* alias: colors/purple/transparent-10 */
+  --tag-in-progress-fill: #5F40DC; /* alias: colors/purple/600 */
+  --tag-in-progress-text: #FFFFFF; /* alias: text/base/invert */
+  --tag-in-progress-icon: #FFFFFF; /* alias: icon/base/invert */
+  --tag-pending-fill: #364153; /* alias: colors/grey/700 */
+  --tag-pending-text: #F9FAFC; /* alias: colors/grey/50 */
+  --tag-pending-icon: #F9FAFC; /* alias: colors/grey/50 */
+  --tag-error-fill: #99292A; /* alias: colors/pink/800 */
+  --tag-error-text: #F7D2CA; /* alias: colors/red/100 */
+  --tag-error-icon: #F7D2CA; /* alias: colors/red/100 */
+  --tag-warning-fill: #9B7908; /* alias: colors/yellow/800 */
+  --tag-warning-text: #FAEEC7; /* alias: colors/yellow/100 */
+  --tag-warning-icon: #FAEEC7; /* alias: colors/yellow/100 */
+  --tag-success-fill: #2A7950; /* alias: colors/green/800 */
+  --tag-success-text: #F1F9F5; /* alias: colors/green/50 */
+  --tag-success-icon: #F1F9F5; /* alias: colors/green/50 */
+  --tag-info-fill: #364153; /* alias: colors/grey/700 */
+  --tag-info-text: #FFFFFF; /* alias: text/base/invert */
+  --tag-info-icon: #FFFFFF; /* alias: icon/base/invert */
+  --tag-primary-fill: #FFFFFF; /* alias: colors/neutral/White */
+  --tag-primary-text: #FFFFFF; /* alias: text/base/invert */
+  --tag-primary-icon: #000000; /* alias: icon/base/primary */
+  --tag-secondary-fill: #34295E; /* alias: colors/purple/800 */
+  --tag-secondary-text: #FFFFFF; /* alias: text/base/invert */
+  --tag-secondary-icon: #FFFFFF; /* alias: icon/base/invert */
+  --tag-outline-border: #FFFFFF; /* alias: colors/transparent/white/solid */
+  --tag-outline-text: #FFFFFF; /* alias: text/base/invert */
+  --tag-outline-icon: #FFFFFF; /* alias: icon/base/invert */
+  --background-body: #000000; /* alias: colors/neutral/Black */
+  --toast-feedback-info: #364153; /* alias: colors/grey/700 */
+  --fill-base-brand: #7859F6; /* alias: colors/purple/400 */
+  --fill-base-brand-dark: #34295E; /* alias: colors/purple/800 */
+  --branding-DXE-logo-primary: #FFFFFF; /* alias: colors/transparent/white/solid */
+  --branding-DXE-logo-invert: #6B47F5; /* alias: colors/branding/Tawuniya/Primary Color */
+  --cards-policy-Draft-background: #6B47F5; /* alias: colors/branding/Tawuniya/Primary Color */
+  --cards-policy-Expired-expired: #364153; /* alias: colors/grey/700 */
+  --cards-policy-Active-Active: #34295E; /* alias: cards/brand-secondary/background */
+  --background-transparent-selected: rgba(107, 71, 245, 0.10); /* opacity: 10% */ /* alias: colors/purple/transparent-10 */
+  --branding-vitality-bronze-card-background: #FFF7EF; /* alias: colors/Additonal/Off white */
+  --branding-vitality-bronze-tag-color: #CE8946; /* alias: colors/Additonal/Bronze */
+  --branding-vitality-silver-card-background: #FFFFFF; /* alias: colors/transparent/white/solid */
+  --branding-vitality-silver-tag-color: #B0B0B0; /* alias: colors/Additonal/Gray */
+  --branding-vitality-gold-card-background: #FCF9ED; /* alias: colors/yellow/50 */
+  --branding-vitality-gold-tag-color: #C79A05; /* alias: colors/yellow/700 */
+  --branding-vitality-platinum-card-background: #FFFFFF; /* alias: colors/transparent/white/solid */
+  --branding-vitality-platinum-tag-color: #636363; /* alias: colors/Additonal/Gray 2 */
+  --button-text-brand-primary-Invert: #6B47F5; /* alias: colors/branding/Tawuniya/Primary Color */
+  --button-text-brand-secondary-Invert: #5036BA; /* alias: colors/purple/700 */
+  --cards-policy-Active-Pattern: #453689; /* alias: colors/purple/750 */
+  --icon-feedback-Info: #2563EB;
+  --background-feedback-info: #DBEAFE;
+  --text-feedback-info: #1D4ED8;
+}
+
+/* --------------------------------------------------------------------------
+ * Numeric Tokens (Spacing, Sizing, Radius, etc.)
+ * -------------------------------------------------------------------------- */
+:root {
+  --spacing-spacing-xxs: 2px;
+  --spacing-spacing-xs: 4px;
+  --spacing-spacing-s: 8px;
+  --spacing-spacing-m: 12px;
+  --spacing-spacing-l: 16px;
+  --spacing-spacing-xl: 24px;
+  --spacing-spacing-xxl: 32px;
+  --spacing-spacing-3xl: 40px;
+  --spacing-spacing-4xl: 48px;
+  --spacing-spacing-5xl: 56px;
+  --spacing-spacing-6xl: 64px;
+  --spacing-spacing-7xl: 72px;
+  --spacing-spacing-8xl: 80px;
+  --radius-radius-xs: 4px;
+  --radius-radius-s: 8px;
+  --radius-radius-m: 12px;
+  --radius-radius-l: 16px;
+  --radius-radius-xl: 24px;
+  --radius-radius-xxs: 2px;
+  --radius-radius-max: 9999px;
+  --typography-font-size-font-xxs: 10px;
+  --typography-font-size-font-xs: 12px;
+  --typography-font-size-font-s: 14px;
+  --typography-font-size-font-m: 16px;
+  --typography-font-size-font-l: 18px;
+  --typography-font-size-font-xl: 20px;
+  --typography-font-size-font-xxl: 24px;
+  --typography-font-size-font-3xl: 28px;
+  --typography-font-size-font-4xl: 32px;
+  --typography-font-size-font-5xl: 40px;
+  --typography-font-weight-bold: 700px;
+  --typography-font-weight-Regular: 400px;
+  --typography-line-height-xxs: 12px;
+  --typography-line-height-xs: 14px;
+  --typography-line-height-s: 16px;
+  --typography-line-height-m: 18px;
+  --typography-line-height-l: 20px;
+  --typography-line-height-xl: 22px;
+  --typography-line-height-xxl: 24px;
+  --typography-line-height-3xl: 26px;
+  --typography-line-height-4xl: 28px;
+  --typography-line-height-5xl: 30px;
+  --typography-line-height-6xl: 34px;
+  --typography-line-height-7xl: 40px;
+  --typography-letter-spacing-neutral: 0px;
+  --typography-letter-spacing-negative-0-5: -0.5px;
+  --typography-letter-spacing-negative-1: -1px;
+  --typography-letter-spacing-positive-1-5: -1.5px;
+  --typography-letter-spacing-negative-2: -2px;
+  --typography-letter-spacing-negative-2-5: -2.5px;
+  --typography-letter-spacing-negative-3: -3px;
+  --typography-font-weight-Medium: 500px;
+  --typography-line-height-8xl: 50px;
+  --typography-line-height-9xl: 100px;
+  --typography-font-size-font-6xl: 80px;
+  --sizing-sizing-1: 4px;
+  --sizing-sizing-2: 8px;
+  --sizing-sizing-3: 12px;
+  --sizing-sizing-4: 16px;
+  --sizing-sizing-5: 20px;
+  --sizing-sizing-6: 24px;
+  --sizing-sizing-7: 28px;
+  --sizing-sizing-8: 32px;
+  --sizing-sizing-9: 36px;
+  --sizing-sizing-10: 40px;
+  --sizing-sizing-11: 44px;
+  --sizing-sizing-12: 48px;
+  --sizing-sizing-13: 52px;
+  --sizing-sizing-14: 56px;
+  --sizing-sizing-15: 60px;
+  --sizing-sizing-16: 64px;
+  --sizing-sizing-17: 68px;
+  --sizing-sizing-18: 72px;
+  --sizing-sizing-19: 76px;
+  --sizing-sizing-20: 80px;
+  --radius-radius-xxl: 32px;
+  --typography-font-weight-Light: 300px;
+  --typography-line-height-3xs: 10px;
+  --radius-radius-l-in: 14px;
+  --spacing-spacing-12xl: 120px;
+}
+
+/* --------------------------------------------------------------------------
+ * Typography Classes
+ * -------------------------------------------------------------------------- */
+.text-display {
+  font-family: "Tawuniya Medium", sans-serif;
+  font-size: 80px;
+  line-height: 100px;
+  letter-spacing: 0;
+}
+
+.text-heading1 {
+  font-family: "Tawuniya Medium", sans-serif;
+  font-size: 40px;
+  line-height: 50px;
+  letter-spacing: 0;
+}
+
+.text-heading2 {
+  font-family: "Tawuniya Light", sans-serif;
+  font-size: 32px;
+  line-height: 40px;
+  letter-spacing: 0;
+}
+
+.text-heading3 {
+  font-family: "Tawuniya Medium", sans-serif;
+  font-size: 24px;
+  line-height: 30px;
+  letter-spacing: 0;
+}
+
+.text-heading4 {
+  font-family: "Tawuniya Medium", sans-serif;
+  font-size: 20px;
+  line-height: 26px;
+  letter-spacing: 0;
+}
+
+.text-heading5 {
+  font-family: "Tawuniya Medium", sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0;
+}
+
+.text-heading6 {
+  font-family: "Tawuniya Medium", sans-serif;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 0;
+}
+
+.text-body-medium-medium {
+  font-family: "Tawuniya Medium", sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0;
+}
+
+.text-body-medium-regular {
+  font-family: "Tawuniya Regular", sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0;
+}
+
+.text-body-small-medium {
+  font-family: "Tawuniya Medium", sans-serif;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 0;
+}
+
+.text-body-small-regular {
+  font-family: "Tawuniya Regular", sans-serif;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 0;
+}
+
+.text-body-extrasmall-regular {
+  font-family: "Tawuniya Regular", sans-serif;
+  font-size: 12px;
+  line-height: 20px;
+  letter-spacing: 0;
+}
+
+.text-interactive-medium-regular {
+  font-family: "Tawuniya Regular", sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0;
+}
+
+.text-interactive-small-regular {
+  font-family: "Tawuniya Regular", sans-serif;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 0;
+}
+
+.text-interactive-extrasmall-regular {
+  font-family: "Tawuniya Regular", sans-serif;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0;
+}
+
+.text-label-extrasmall-regular {
+  font-family: "Tawuniya Regular", sans-serif;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0;
+}
+
+.text-label-extrasmall-medium {
+  font-family: "Tawuniya Medium", sans-serif;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0;
+}
+
+.text-label-xxs-regular {
+  font-family: "Tawuniya Regular", sans-serif;
+  font-size: 10px;
+  line-height: 12px;
+  letter-spacing: 0;
+}
+
+.text-navigation-xxs-regular {
+  font-family: "Tawuniya Regular", sans-serif;
+  font-size: 10px;
+  line-height: 12px;
+  letter-spacing: 0;
+}
+
+.text-navigation-xxs-medium {
+  font-family: "Tawuniya Medium", sans-serif;
+  font-size: 10px;
+  line-height: 12px;
+  letter-spacing: 0;
+}
+
+.text-riyal-large {
+  font-family: "Riyal-Font Regular", sans-serif;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0;
+}
+
+.text-riyal-regular {
+  font-family: "Riyal-Font Regular", sans-serif;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0;
+}
+
+.text-riyal-small {
+  font-family: "Riyal-Font Regular", sans-serif;
+  font-size: 12px;
+  line-height: 12px;
+  letter-spacing: 0;
+}
+
+/* --------------------------------------------------------------------------
+ * Effect Styles (reference only)
+ * -------------------------------------------------------------------------- */
+/* light/elevation-100-canvas: DROP_SHADOW blur:2 offset:0,1 */
+/* light/elevation-200-canvas: DROP_SHADOW blur:3 offset:0,1, DROP_SHADOW blur:8 offset:0,3, DROP_SHADOW blur:0.5 offset:0,0 */
+/* light/elevation-300-tooltip: DROP_SHADOW blur:3 offset:0,1, DROP_SHADOW blur:12 offset:0,5, DROP_SHADOW blur:0.5 offset:0,0 */
+/* light/elevation-400-menu-panel: DROP_SHADOW blur:5 offset:0,2, DROP_SHADOW blur:16 offset:0,10, DROP_SHADOW blur:0.5 offset:0,0 */
+/* light/elevation-500-modal-window: DROP_SHADOW blur:5 offset:0,2, DROP_SHADOW blur:24 offset:0,10, DROP_SHADOW blur:0.5 offset:0,0 */
+/* dark/elevation-100-canvas: DROP_SHADOW blur:2 offset:0,1 */
+/* dark/elevation-200-canvas: DROP_SHADOW blur:3 offset:0,1, INNER_SHADOW blur:0.5 offset:0,0, DROP_SHADOW blur:8 offset:0,3, INNER_SHADOW blur:0 offset:0,0.5 */
+/* dark/elevation-300-tooltip: DROP_SHADOW blur:3 offset:0,1, INNER_SHADOW blur:0.5 offset:0,0, DROP_SHADOW blur:12 offset:0,5, INNER_SHADOW blur:0 offset:0,0.5 */
+/* dark/elevation-400-menu-panel: DROP_SHADOW blur:5 offset:0,2, INNER_SHADOW blur:0.5 offset:0,0, DROP_SHADOW blur:16 offset:0,10, INNER_SHADOW blur:0 offset:0,0.5 */
+/* dark/elevation-500-modal-window: DROP_SHADOW blur:5 offset:0,3, INNER_SHADOW blur:0.5 offset:0,0, DROP_SHADOW blur:24 offset:0,10, INNER_SHADOW blur:0 offset:0,0.5 */
+

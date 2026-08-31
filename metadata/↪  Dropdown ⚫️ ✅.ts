@@ -1,0 +1,106 @@
+/**
+ * Tawuniya DLS 4.0 — Component Metadata
+ * Page: "Dropdown" (1277:35236)
+ * Figma file: ydDjnPsHFoe8baKAw1w9eY
+ * Generated: 2026-08-30
+ */
+
+// =============================================================================
+// Dropdown Page Component Metadata
+// Generated from Figma file: ydDjnPsHFoe8baKAw1w9eY
+// Page: "Dropdown" (1277:35236)
+// =============================================================================
+//
+// Documentation:
+//   "Dropdowns present a list of options in a collapsible menu, allowing users
+//    to select a single item (or multiple, if enabled)."
+//
+// =============================================================================
+
+// -----------------------------------------------------------------------------
+// 1. MOBILE/DROPDOWN
+// -----------------------------------------------------------------------------
+export const MobileDropdownMetadata = {
+  component: {
+    name: "Mobile/Dropdown",
+    category: "molecules",
+    description:
+      "Dropdown select field that presents a collapsible options menu. Supports inner/outer labels, leading/trailing icons, optional/error messages, and mandatory indicator.",
+    type: "input",
+    figmaId: "1279:36718",
+    totalVariants: 6,
+  },
+
+  variants: {
+    State: {
+      options: ["Default", "Error Filled", "Success Filled", "Filled", "Focused", "Disabled"],
+      default: "Default",
+    },
+  },
+
+  properties: {
+    "Optional Message": { type: "boolean", default: true, description: "Toggle optional message / hint text below field" },
+    "Label Outside": { type: "boolean", default: false, description: "Show label above the field (outside position)" },
+    "Label Inside": { type: "boolean", default: true, description: "Show floating label inside the field" },
+    "Label Name": { type: "text", default: "Label Name" },
+    "O/M Content": { type: "text", default: "Optional Message / Hint" },
+    "E/M Content": { type: "text", default: "Error Message" },
+    "Trailing Icon": { type: "boolean", default: true },
+    "Leading Icon": { type: "boolean", default: false },
+    "Change Leading Icon": { type: "instanceSwap", default: "767:83051" },
+    "*mandatory": { type: "boolean", default: false, description: "Show mandatory asterisk indicator" },
+    "Input content": { type: "text", default: "Input" },
+  },
+
+  accessibility: {
+    role: "listbox",
+    wcag: "AA",
+    notes: ["Content on Hover or Focus Level AA"],
+  },
+
+  aiHints: {
+    priority: "high",
+    keywords: ["dropdown", "select", "picker", "dropdown field", "select field", "combobox"],
+  },
+};
+
+// -----------------------------------------------------------------------------
+// 2. SELECTION BOTTOMSHEETS
+// -----------------------------------------------------------------------------
+export const SelectionBottomsheetsMetadata = {
+  component: {
+    name: "Selection Bottomsheets",
+    category: "organisms",
+    description: "Bottom sheet surfaces for dropdown option selection with radio, checkbox, and empty state variants.",
+    type: "overlay",
+    figmaId: "11128:75724",
+    totalVariants: 3,
+  },
+
+  variants: {
+    "Property 1": { options: ["Empty State", "Options"], default: "Options" },
+    "Property 2": { options: ["Checkbox", "Nothing found", "Radio"], default: "Radio" },
+  },
+
+  aiHints: {
+    priority: "medium",
+    keywords: ["selection sheet", "dropdown options", "option list", "picker sheet"],
+  },
+};
+
+// =============================================================================
+// PAGE-LEVEL SUMMARY
+// =============================================================================
+export const DropdownPageSummary = {
+  pageName: "Dropdown",
+  pageId: "1277:35236",
+  fileKey: "ydDjnPsHFoe8baKAw1w9eY",
+  totalComponentSets: 2,
+  totalStandaloneComponents: 0,
+  totalVariantsAcrossAll: 9,
+
+  componentIndex: [
+    { name: "Mobile/Dropdown", id: "1279:36718", variants: 6, category: "molecules" },
+    { name: "Selection Bottomsheets", id: "11128:75724", variants: 3, category: "organisms" },
+  ],
+};

@@ -1,0 +1,114 @@
+{
+ "EmptyStateBottomSheetMetadata": {
+  "component": {
+   "name": "Mobile/Bottom Sheet",
+   "category": "organisms",
+   "description": "Bottom sheet configured for empty state patterns — displays contextual empty state content within a half-screen or full-screen overlay.",
+   "type": "overlay",
+   "figmaId": "11006:36174",
+   "totalVariants": 2
+  },
+  "variants": {
+   "Type": {
+    "options": [
+     "Half Screen",
+     "Full Screen"
+    ],
+    "default": "Half Screen"
+   }
+  },
+  "properties": {
+   "Show Header": {
+    "type": "boolean",
+    "default": true
+   },
+   "Primary action": {
+    "type": "boolean",
+    "default": true
+   },
+   "Secondary action": {
+    "type": "boolean",
+    "default": true
+   }
+  },
+  "aiHints": {
+   "priority": "medium",
+   "keywords": [
+    "empty state",
+    "no data",
+    "no results",
+    "blank state",
+    "zero state"
+   ]
+  }
+ },
+ "EmptyStateProgressMetadata": {
+  "component": {
+   "name": "progress",
+   "category": "atoms",
+   "description": "Progress indicator atom used within empty state upload flows.",
+   "type": "indicator",
+   "figmaId": "11006:36215",
+   "totalVariants": 3
+  },
+  "variants": {
+   "State": {
+    "options": [
+     "100%",
+     "0%",
+     "50%"
+    ],
+    "default": "0%"
+   }
+  }
+ },
+ "EmptyStateUploadingIconMetadata": {
+  "component": {
+   "name": "Uploading Icon",
+   "category": "atoms",
+   "description": "Upload status icon for empty state upload patterns.",
+   "type": "indicator",
+   "figmaId": "11006:36239",
+   "totalVariants": 4
+  },
+  "variants": {
+   "Satat": {
+    "options": [
+     "Done",
+     "Failure",
+     "Processing",
+     "Uploading"
+    ],
+    "default": "Uploading"
+   }
+  }
+ },
+ "EmptyStatePageSummary": {
+  "pageName": "Empty State [Pattern]",
+  "pageId": "11006:36136",
+  "fileKey": "ydDjnPsHFoe8baKAw1w9eY",
+  "totalComponentSets": 3,
+  "totalStandaloneComponents": 0,
+  "totalVariantsAcrossAll": 9,
+  "componentIndex": [
+   {
+    "name": "Mobile/Bottom Sheet",
+    "id": "11006:36174",
+    "variants": 2,
+    "category": "organisms"
+   },
+   {
+    "name": "progress",
+    "id": "11006:36215",
+    "variants": 3,
+    "category": "atoms"
+   },
+   {
+    "name": "Uploading Icon",
+    "id": "11006:36239",
+    "variants": 4,
+    "category": "atoms"
+   }
+  ]
+ }
+}

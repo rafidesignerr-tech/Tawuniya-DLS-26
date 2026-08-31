@@ -1,0 +1,4 @@
+# Tawuniya DLS — Layout grids (Layer 1 foundation)
+
+grids[1]{name,spec}:
+Grids/Mobile,COLUMNS count=4 gutter=8 margin=16 | ROWS count=0 gutter=8 margin=112

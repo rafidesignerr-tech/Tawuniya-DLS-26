@@ -1,0 +1,66 @@
+# Tawuniya DLS — Figma page coverage ledger
+# status=not indexed means this page is NOT represented in the infrastructure
+
+pages[62]{page,id,status}:
+ Cover,0:1,not indexed
+🏁 Getting Started with the Design System,5561:47644,not indexed
+📣 Components Release Note,9467:817,not indexed
+📝 Updates Hub,14411:25752,not indexed
+⚫ Dark Mode Refrences ,14835:35357,not indexed
+---,33:5366,not indexed
+------ ↓ Foundation Elements ↓ ------,75:107624,not indexed
+↪ 📐 Layout & Spacing,36:8097,foundation
+↪ 🎨 Colors,36:7352,foundation
+↪ 🆎 Typography,36:7634,foundation
+↪♠️ Iconography,141:109374,foundation
+↪ ✰ Elevation,1918:23018,foundation
+---,141:109373,not indexed
+🗂️  Components Directory,12130:143651,not indexed
+-------- ↓ UI Components ↓ --------,141:116429,not indexed
+↪  Button ⚫️ ✅,159:112453,components
+↪ Heading ⚫️ ✅,830:8587,components
+↪  Input Fields ⚫️✅,160:112457,components
+"↪ Search, Filter Chips ⚫️✅",921:44027,components
+↪ Avatar ⚫️✅,3329:54677,components
+↪ Dropdown ⚫️✅,1277:35236,components
+↪ Bottom Sheet ⚫️✅,1279:37010,components
+↪ Empty State [Pattern] ⚫️✅,11006:36136,components
+↪  Modal ⚫️,1395:8478,components
+↪ File Upload ⚫️✅,921:44031,components
+↪ Lists ⚫️✅,1061:27524,components
+↪ Tags ⚫️✅,159:112434,components
+↪ Toast ⚫️✅,255:42740,components
+↪ Top Nav ⚫️✅,231:19032,components
+↪ Bottom Nav ⚫️✅,213:196,components
+↪ Radio button ⚫️✅,160:112458,components
+↪ Checkbox ⚫️✅,884:10788,components
+↪ Toggle ⚫️✅,870:24274,components
+↪ Accordions ⚫️✅,159:112454,components
+↪ Tabs ⚫️✅,517:8797,components
+↪ Pagination ⚫️✅,1053:7426,components
+↪ Progress Steps ⚫️✅,1151:3640,components
+↪ Progress Bar ⚫️✅,1053:7427,components
+↪ Payment ⚫️✅,10954:133543,components
+↪ Date Picker ⚫️✅,1277:35371,components
+↪ Claim Tracker ⚫️✅,4165:51046,components
+↪ Cart ⚫️✅,3981:18476,components
+↪ Cards (15) ⚫️✅,156:133700,components
+↪ Logo ⚫️✅,12660:22719,components
+↪ Damage Map ⚫️✅,3991:12723,components
+↪ Offer Stories ⚫️✅,4537:26350,components
+↪ Offer Folder ⚫️✅,4470:13031,components
+↪ Alshamel ⚫️✅,4681:47463,components
+↪ Spinner ⚫️✅,4043:14364,components
+↪ Hero Section ⚫️✅,4470:13428,components
+↪ Graphs ⚫️✅,4771:7837,components
+↪ Shimmer ⚫️,20787:142011,not indexed
+↪ Sales Journeys Components 🟠,14461:21895,components
+↪ BETA components 🟠,4808:535251,components
+-------------- Out of Scope / Depreciated -------------,5050:20627,not indexed
+Covers,8798:24959,not indexed
+------------------,17368:62863,not indexed
+↪ Organisms (UI Shell) 🗂️,17368:63014,not indexed
+Part 1,17368:63015,not indexed
+---,143:5045,not indexed
+Style Guide,7096:271462,not indexed
+Playground,14015:13481,not indexed

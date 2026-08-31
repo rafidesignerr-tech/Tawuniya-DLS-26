@@ -1,0 +1,1012 @@
+{
+ "textStyles": [
+  {
+   "name": "Display",
+   "id": "S:eab312d1a2d652c57035c581005284326d06e7a8,",
+   "font": "Tawuniya Medium",
+   "size": 80,
+   "lineHeight": 100,
+   "letterSpacing": 0,
+   "boundVariables": [
+    "letterSpacing",
+    "fontSize",
+    "fontFamily",
+    "lineHeight",
+    "fontWeight"
+   ],
+   "description": ""
+  },
+  {
+   "name": "heading1",
+   "id": "S:c2056ab709d4d5ccb809c25c4a028fbe7ae59796,",
+   "font": "Tawuniya Medium",
+   "size": 40,
+   "lineHeight": 50,
+   "letterSpacing": 0,
+   "boundVariables": [
+    "letterSpacing",
+    "fontSize",
+    "fontFamily",
+    "lineHeight",
+    "fontWeight"
+   ],
+   "description": ""
+  },
+  {
+   "name": "heading2",
+   "id": "S:0a0cb66c6f22be5165a13e8a6b193584037b418f,",
+   "font": "Tawuniya Medium",
+   "size": 32,
+   "lineHeight": 40,
+   "letterSpacing": 0,
+   "boundVariables": [
+    "letterSpacing",
+    "fontSize",
+    "fontFamily",
+    "lineHeight",
+    "fontWeight"
+   ],
+   "description": ""
+  },
+  {
+   "name": "heading3",
+   "id": "S:e0aa94333fba79ef09b11a553cb4f83e916b28f0,",
+   "font": "Tawuniya Medium",
+   "size": 24,
+   "lineHeight": 30,
+   "letterSpacing": 0,
+   "boundVariables": [
+    "letterSpacing",
+    "fontSize",
+    "fontFamily",
+    "lineHeight",
+    "fontWeight"
+   ],
+   "description": ""
+  },
+  {
+   "name": "heading4",
+   "id": "S:27215bba3904307848ac657ffb5178818101a50a,",
+   "font": "Tawuniya Medium",
+   "size": 20,
+   "lineHeight": 26,
+   "letterSpacing": 0,
+   "boundVariables": [
+    "letterSpacing",
+    "fontSize",
+    "fontFamily",
+    "lineHeight",
+    "fontWeight"
+   ],
+   "description": ""
+  },
+  {
+   "name": "heading5",
+   "id": "S:09c5a33269918d20a8114685e3c400a8e00c5925,",
+   "font": "Tawuniya Medium",
+   "size": 16,
+   "lineHeight": 20,
+   "letterSpacing": 0,
+   "boundVariables": [
+    "letterSpacing",
+    "fontSize",
+    "fontFamily",
+    "lineHeight",
+    "fontWeight"
+   ],
+   "description": ""
+  },
+  {
+   "name": "heading6",
+   "id": "S:33c176d8f72f21c39703dfdb9396083085dea83a,",
+   "font": "Tawuniya Medium",
+   "size": 14,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "boundVariables": [
+    "letterSpacing",
+    "fontSize",
+    "fontFamily",
+    "lineHeight",
+    "fontWeight"
+   ],
+   "description": ""
+  },
+  {
+   "name": "body-medium-medium",
+   "id": "S:f7a61326437cf4bdf32035f51d77fbd94a34ccd7,",
+   "font": "Tawuniya Medium",
+   "size": 16,
+   "lineHeight": 20,
+   "letterSpacing": 0,
+   "boundVariables": [
+    "letterSpacing",
+    "fontSize",
+    "fontFamily",
+    "lineHeight",
+    "fontWeight"
+   ],
+   "description": ""
+  },
+  {
+   "name": "body-medium-regular",
+   "id": "S:fb93c80c234ba2a13e453d81ccc917dc74a4e58b,",
+   "font": "Tawuniya Regular",
+   "size": 16,
+   "lineHeight": 20,
+   "letterSpacing": 0,
+   "boundVariables": [
+    "letterSpacing",
+    "fontSize",
+    "fontFamily",
+    "lineHeight",
+    "fontWeight"
+   ],
+   "description": ""
+  },
+  {
+   "name": "body-small-medium",
+   "id": "S:c76c6a6e9a8e667c975358109db268f1307f35f8,",
+   "font": "Tawuniya Medium",
+   "size": 14,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "boundVariables": [
+    "letterSpacing",
+    "fontSize",
+    "fontFamily",
+    "lineHeight",
+    "fontWeight"
+   ],
+   "description": ""
+  },
+  {
+   "name": "body-small-regular",
+   "id": "S:e0c1d193d119d9976c94a2957c7c2ab697c4c4c3,",
+   "font": "Tawuniya Regular",
+   "size": 14,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "boundVariables": [
+    "letterSpacing",
+    "fontSize",
+    "fontFamily",
+    "lineHeight",
+    "fontWeight"
+   ],
+   "description": ""
+  },
+  {
+   "name": "body-extrasmall-regular",
+   "id": "S:202298fe0bd30b81ef0dffd2911fdfafc65bd302,",
+   "font": "Tawuniya Regular",
+   "size": 12,
+   "lineHeight": 20,
+   "letterSpacing": 0,
+   "boundVariables": [
+    "letterSpacing",
+    "fontSize",
+    "fontFamily",
+    "lineHeight",
+    "fontWeight"
+   ],
+   "description": ""
+  },
+  {
+   "name": "interactive-medium-regular",
+   "id": "S:ea5922bce87fa746e783832d16a87fa9ec7ee6ec,",
+   "font": "Tawuniya Regular",
+   "size": 16,
+   "lineHeight": 20,
+   "letterSpacing": 0,
+   "boundVariables": [
+    "letterSpacing",
+    "fontSize",
+    "fontFamily",
+    "lineHeight",
+    "fontWeight"
+   ],
+   "description": ""
+  },
+  {
+   "name": "interactive-small-regular",
+   "id": "S:5fdb4998d1f17ff5a9439f9ecebed3b1ec866d05,",
+   "font": "Tawuniya Regular",
+   "size": 14,
+   "lineHeight": 18,
+   "letterSpacing": 0,
+   "boundVariables": [
+    "letterSpacing",
+    "fontSize",
+    "fontFamily",
+    "lineHeight",
+    "fontWeight"
+   ],
+   "description": ""
+  },
+  {
+   "name": "interactive-extrasmall-regular",
+   "id": "S:cb748ebd0b6bde131b12c7292a1b138f52145ca1,",
+   "font": "Tawuniya Regular",
+   "size": 12,
+   "lineHeight": 16,
+   "letterSpacing": 0,
+   "boundVariables": [
+    "letterSpacing",
+    "fontSize",
+    "fontFamily",
+    "lineHeight",
+    "fontWeight"
+   ],
+   "description": ""
+  },
+  {
+   "name": "label-extrasmall-regular",
+   "id": "S:7f37d7175ce93acae83b0c594903a1f839a77c6f,",
+   "font": "Tawuniya Regular",
+   "size": 12,
+   "lineHeight": 16,
+   "letterSpacing": 0,
+   "boundVariables": [
+    "letterSpacing",
+    "fontSize",
+    "fontFamily",
+    "lineHeight",
+    "fontWeight"
+   ],
+   "description": ""
+  },
+  {
+   "name": "label-extrasmall-medium",
+   "id": "S:c3c265f570f84735c35dd9c8641f8de6553b13a8,",
+   "font": "Tawuniya Medium",
+   "size": 12,
+   "lineHeight": 16,
+   "letterSpacing": 0,
+   "boundVariables": [
+    "letterSpacing",
+    "fontSize",
+    "fontFamily",
+    "lineHeight",
+    "fontWeight"
+   ],
+   "description": ""
+  },
+  {
+   "name": "label-xxs-regular",
+   "id": "S:0fe189d1bf36b39cd559d743ac891122b59f78cd,",
+   "font": "Tawuniya Regular",
+   "size": 10,
+   "lineHeight": 12,
+   "letterSpacing": 0,
+   "boundVariables": [
+    "letterSpacing",
+    "fontSize",
+    "fontFamily",
+    "lineHeight",
+    "fontWeight"
+   ],
+   "description": ""
+  },
+  {
+   "name": "navigation-xxs-regular",
+   "id": "S:275c3b63cbe9d9ed90f172c64ad4c9511bd8d48c,",
+   "font": "Tawuniya Regular",
+   "size": 10,
+   "lineHeight": 12,
+   "letterSpacing": 0,
+   "boundVariables": [
+    "letterSpacing",
+    "fontSize",
+    "fontFamily",
+    "lineHeight",
+    "fontWeight"
+   ],
+   "description": ""
+  },
+  {
+   "name": "navigation-xxs-medium",
+   "id": "S:c3fa17da91007a32715f3f2defe340380e64ebf8,",
+   "font": "Tawuniya Medium",
+   "size": 10,
+   "lineHeight": 12,
+   "letterSpacing": 0,
+   "boundVariables": [
+    "letterSpacing",
+    "fontSize",
+    "fontFamily",
+    "lineHeight",
+    "fontWeight"
+   ],
+   "description": ""
+  },
+  {
+   "name": "riyal-large",
+   "id": "S:381055e55a2fe73fccba82ebcb9b0df86ee30476,",
+   "font": "Riyal-Font Regular",
+   "size": 20,
+   "lineHeight": 24,
+   "letterSpacing": 0,
+   "boundVariables": [
+    "letterSpacing",
+    "fontSize",
+    "fontFamily",
+    "lineHeight",
+    "fontWeight"
+   ],
+   "description": "riyal symbol - 24px size and line height\nعملة الريال"
+  },
+  {
+   "name": "riyal-regular",
+   "id": "S:ce1f7f47f88199d8cd1eae5c02f6624d54e6fb7b,",
+   "font": "Riyal-Font Regular",
+   "size": 14,
+   "lineHeight": 16,
+   "letterSpacing": 0,
+   "boundVariables": [
+    "letterSpacing",
+    "fontSize",
+    "fontFamily",
+    "lineHeight",
+    "fontWeight"
+   ],
+   "description": "riyal symbol - 16px size and line height\nعملة الريال"
+  },
+  {
+   "name": "riyal-small",
+   "id": "S:6e483703f4d43e74363756510a5a598f5483f747,",
+   "font": "Riyal-Font Regular",
+   "size": 12,
+   "lineHeight": 12,
+   "letterSpacing": 0,
+   "boundVariables": [
+    "letterSpacing",
+    "fontSize",
+    "fontFamily",
+    "lineHeight",
+    "fontWeight"
+   ],
+   "description": "riyal symbol - 12px size and line height\nعملة الريال"
+  }
+ ],
+ "effectStyles": [
+  {
+   "name": "light/elevation-100-canvas",
+   "id": "S:ad218a8c948616341d7cba489641fc8e629abd31,",
+   "description": "",
+   "effects": [
+    {
+     "type": "DROP_SHADOW",
+     "radius": 2,
+     "offsetX": 0,
+     "offsetY": 1,
+     "spread": 0,
+     "alpha": 0.03,
+     "visible": true
+    }
+   ]
+  },
+  {
+   "name": "light/elevation-200-canvas",
+   "id": "S:8883067e4256ecf73a87624b55b6cd7c3d299bcf,",
+   "description": "",
+   "effects": [
+    {
+     "type": "DROP_SHADOW",
+     "radius": 3,
+     "offsetX": 0,
+     "offsetY": 1,
+     "spread": 0,
+     "alpha": 0.1,
+     "visible": true
+    },
+    {
+     "type": "DROP_SHADOW",
+     "radius": 8,
+     "offsetX": 0,
+     "offsetY": 3,
+     "spread": 0,
+     "alpha": 0.1,
+     "visible": true
+    },
+    {
+     "type": "DROP_SHADOW",
+     "radius": 0.5,
+     "offsetX": 0,
+     "offsetY": 0,
+     "spread": 0,
+     "alpha": 0.18,
+     "visible": true
+    }
+   ]
+  },
+  {
+   "name": "light/elevation-300-tooltip",
+   "id": "S:5022e8d988428444eb0e5302a4f71a7b8e13b2be,",
+   "description": "",
+   "effects": [
+    {
+     "type": "DROP_SHADOW",
+     "radius": 3,
+     "offsetX": 0,
+     "offsetY": 1,
+     "spread": 0,
+     "alpha": 0.1,
+     "visible": true
+    },
+    {
+     "type": "DROP_SHADOW",
+     "radius": 12,
+     "offsetX": 0,
+     "offsetY": 5,
+     "spread": 0,
+     "alpha": 0.13,
+     "visible": true
+    },
+    {
+     "type": "DROP_SHADOW",
+     "radius": 0.5,
+     "offsetX": 0,
+     "offsetY": 0,
+     "spread": 0,
+     "alpha": 0.15,
+     "visible": true
+    }
+   ]
+  },
+  {
+   "name": "light/elevation-400-menu-panel",
+   "id": "S:e8ca9905e2e451ec9ff97938104a8cc96624fa38,",
+   "description": "",
+   "effects": [
+    {
+     "type": "DROP_SHADOW",
+     "radius": 5,
+     "offsetX": 0,
+     "offsetY": 2,
+     "spread": 0,
+     "alpha": 0.15,
+     "visible": true
+    },
+    {
+     "type": "DROP_SHADOW",
+     "radius": 16,
+     "offsetX": 0,
+     "offsetY": 10,
+     "spread": 0,
+     "alpha": 0.12,
+     "visible": true
+    },
+    {
+     "type": "DROP_SHADOW",
+     "radius": 0.5,
+     "offsetX": 0,
+     "offsetY": 0,
+     "spread": 0,
+     "alpha": 0.12,
+     "visible": true
+    }
+   ]
+  },
+  {
+   "name": "light/elevation-500-modal-window",
+   "id": "S:2ebca969e48f38450d326b9eac1f92b357919f16,",
+   "description": "",
+   "effects": [
+    {
+     "type": "DROP_SHADOW",
+     "radius": 5,
+     "offsetX": 0,
+     "offsetY": 2,
+     "spread": 0,
+     "alpha": 0.15,
+     "visible": true
+    },
+    {
+     "type": "DROP_SHADOW",
+     "radius": 24,
+     "offsetX": 0,
+     "offsetY": 10,
+     "spread": 0,
+     "alpha": 0.18,
+     "visible": true
+    },
+    {
+     "type": "DROP_SHADOW",
+     "radius": 0.5,
+     "offsetX": 0,
+     "offsetY": 0,
+     "spread": 0,
+     "alpha": 0.08,
+     "visible": true
+    },
+    {
+     "type": "DROP_SHADOW",
+     "radius": 12,
+     "offsetX": 0,
+     "offsetY": 3,
+     "spread": 0,
+     "alpha": 0.05,
+     "visible": false
+    }
+   ]
+  },
+  {
+   "name": "dark/elevation-100-canvas",
+   "id": "S:399bb79f5c39c688d319810b64141a61e4031b80,",
+   "description": "",
+   "effects": [
+    {
+     "type": "DROP_SHADOW",
+     "radius": 2,
+     "offsetX": 0,
+     "offsetY": 1,
+     "spread": 0,
+     "alpha": 0.2,
+     "visible": true
+    }
+   ]
+  },
+  {
+   "name": "dark/elevation-200-canvas",
+   "id": "S:2c81e7c6ba07b491bf2fd74497e7a0aa370969e4,",
+   "description": "",
+   "effects": [
+    {
+     "type": "DROP_SHADOW",
+     "radius": 3,
+     "offsetX": 0,
+     "offsetY": 1,
+     "spread": 0,
+     "alpha": 0.5,
+     "visible": true
+    },
+    {
+     "type": "INNER_SHADOW",
+     "radius": 0.5,
+     "offsetX": 0,
+     "offsetY": 0,
+     "spread": 0,
+     "alpha": 0.3,
+     "visible": true
+    },
+    {
+     "type": "DROP_SHADOW",
+     "radius": 8,
+     "offsetX": 0,
+     "offsetY": 3,
+     "spread": 0,
+     "alpha": 0.35,
+     "visible": true
+    },
+    {
+     "type": "INNER_SHADOW",
+     "radius": 0,
+     "offsetX": 0,
+     "offsetY": 0.5,
+     "spread": 0,
+     "alpha": 0.08,
+     "visible": true
+    }
+   ]
+  },
+  {
+   "name": "dark/elevation-300-tooltip",
+   "id": "S:d754cdac06d40db545a3b0a6ae6c8c3434f4c202,",
+   "description": "",
+   "effects": [
+    {
+     "type": "DROP_SHADOW",
+     "radius": 3,
+     "offsetX": 0,
+     "offsetY": 1,
+     "spread": 0,
+     "alpha": 0.5,
+     "visible": true
+    },
+    {
+     "type": "INNER_SHADOW",
+     "radius": 0.5,
+     "offsetX": 0,
+     "offsetY": 0,
+     "spread": 0,
+     "alpha": 0.3,
+     "visible": true
+    },
+    {
+     "type": "DROP_SHADOW",
+     "radius": 12,
+     "offsetX": 0,
+     "offsetY": 5,
+     "spread": 0,
+     "alpha": 0.35,
+     "visible": true
+    },
+    {
+     "type": "INNER_SHADOW",
+     "radius": 0,
+     "offsetX": 0,
+     "offsetY": 0.5,
+     "spread": 0,
+     "alpha": 0.08,
+     "visible": true
+    }
+   ]
+  },
+  {
+   "name": "dark/elevation-400-menu-panel",
+   "id": "S:7441fa37d7151cbc967060debbfdfb44b035af54,",
+   "description": "",
+   "effects": [
+    {
+     "type": "DROP_SHADOW",
+     "radius": 5,
+     "offsetX": 0,
+     "offsetY": 2,
+     "spread": 0,
+     "alpha": 0.35,
+     "visible": true
+    },
+    {
+     "type": "INNER_SHADOW",
+     "radius": 0.5,
+     "offsetX": 0,
+     "offsetY": 0,
+     "spread": 0,
+     "alpha": 0.35,
+     "visible": true
+    },
+    {
+     "type": "DROP_SHADOW",
+     "radius": 16,
+     "offsetX": 0,
+     "offsetY": 10,
+     "spread": 0,
+     "alpha": 0.35,
+     "visible": true
+    },
+    {
+     "type": "INNER_SHADOW",
+     "radius": 0,
+     "offsetX": 0,
+     "offsetY": 0.5,
+     "spread": 0,
+     "alpha": 0.08,
+     "visible": true
+    }
+   ]
+  },
+  {
+   "name": "dark/elevation-500-modal-window",
+   "id": "S:6989b415c64bbf8dd1ca5ea2b79679a822cd70e6,",
+   "description": "",
+   "effects": [
+    {
+     "type": "DROP_SHADOW",
+     "radius": 5,
+     "offsetX": 0,
+     "offsetY": 3,
+     "spread": 0,
+     "alpha": 0.35,
+     "visible": true
+    },
+    {
+     "type": "INNER_SHADOW",
+     "radius": 0.5,
+     "offsetX": 0,
+     "offsetY": 0,
+     "spread": 0,
+     "alpha": 0.35,
+     "visible": true
+    },
+    {
+     "type": "DROP_SHADOW",
+     "radius": 24,
+     "offsetX": 0,
+     "offsetY": 10,
+     "spread": 0,
+     "alpha": 0.45,
+     "visible": true
+    },
+    {
+     "type": "INNER_SHADOW",
+     "radius": 0,
+     "offsetX": 0,
+     "offsetY": 0.5,
+     "spread": 0,
+     "alpha": 0.08,
+     "visible": true
+    }
+   ]
+  }
+ ],
+ "gridStyles": [
+  {
+   "name": "Grids/Mobile",
+   "id": "S:77a9aafaca4861ead9a250a7b9385dfcc8535959,",
+   "layouts": [
+    {
+     "pattern": "COLUMNS",
+     "count": 4,
+     "gutter": 8,
+     "margin": 16
+    },
+    {
+     "pattern": "ROWS",
+     "count": 0,
+     "gutter": 8,
+     "margin": 112
+    }
+   ]
+  }
+ ],
+ "collections": [
+  {
+   "name": "Primitives",
+   "id": "VariableCollectionId:379:13851",
+   "modes": [
+    "Mode 1"
+   ],
+   "count": 285
+  },
+  {
+   "name": "Colors (V4)",
+   "id": "VariableCollectionId:694:23534",
+   "modes": [
+    "Light",
+    "Dark"
+   ],
+   "count": 362
+  }
+ ],
+ "pages": [
+  {
+   "id": "0:1",
+   "name": " Cover"
+  },
+  {
+   "id": "5561:47644",
+   "name": "🏁 Getting Started with the Design System"
+  },
+  {
+   "id": "9467:817",
+   "name": "📣 Components Release Note"
+  },
+  {
+   "id": "14411:25752",
+   "name": "📝 Updates Hub"
+  },
+  {
+   "id": "14835:35357",
+   "name": "⚫ Dark Mode Refrences "
+  },
+  {
+   "id": "33:5366",
+   "name": "---"
+  },
+  {
+   "id": "75:107624",
+   "name": "------ ↓ Foundation Elements ↓ ------"
+  },
+  {
+   "id": "36:8097",
+   "name": "↪ 📐 Layout & Spacing"
+  },
+  {
+   "id": "36:7352",
+   "name": "↪ 🎨 Colors"
+  },
+  {
+   "id": "36:7634",
+   "name": "↪ 🆎 Typography"
+  },
+  {
+   "id": "141:109374",
+   "name": "↪♠️ Iconography"
+  },
+  {
+   "id": "1918:23018",
+   "name": "↪ ✰ Elevation"
+  },
+  {
+   "id": "141:109373",
+   "name": "---"
+  },
+  {
+   "id": "12130:143651",
+   "name": "🗂️  Components Directory"
+  },
+  {
+   "id": "141:116429",
+   "name": "-------- ↓ UI Components ↓ --------"
+  },
+  {
+   "id": "159:112453",
+   "name": "↪  Button ⚫️ ✅"
+  },
+  {
+   "id": "830:8587",
+   "name": "↪ Heading ⚫️ ✅"
+  },
+  {
+   "id": "160:112457",
+   "name": "↪  Input Fields ⚫️✅"
+  },
+  {
+   "id": "921:44027",
+   "name": "↪ Search, Filter Chips ⚫️✅"
+  },
+  {
+   "id": "3329:54677",
+   "name": "↪ Avatar ⚫️✅"
+  },
+  {
+   "id": "1277:35236",
+   "name": "↪ Dropdown ⚫️✅"
+  },
+  {
+   "id": "1279:37010",
+   "name": "↪ Bottom Sheet ⚫️✅"
+  },
+  {
+   "id": "11006:36136",
+   "name": "↪ Empty State [Pattern] ⚫️✅"
+  },
+  {
+   "id": "1395:8478",
+   "name": "↪  Modal ⚫️"
+  },
+  {
+   "id": "921:44031",
+   "name": "↪ File Upload ⚫️✅"
+  },
+  {
+   "id": "1061:27524",
+   "name": "↪ Lists ⚫️✅"
+  },
+  {
+   "id": "159:112434",
+   "name": "↪ Tags ⚫️✅"
+  },
+  {
+   "id": "255:42740",
+   "name": "↪ Toast ⚫️✅"
+  },
+  {
+   "id": "231:19032",
+   "name": "↪ Top Nav ⚫️✅"
+  },
+  {
+   "id": "213:196",
+   "name": "↪ Bottom Nav ⚫️✅"
+  },
+  {
+   "id": "160:112458",
+   "name": "↪ Radio button ⚫️✅"
+  },
+  {
+   "id": "884:10788",
+   "name": "↪ Checkbox ⚫️✅"
+  },
+  {
+   "id": "870:24274",
+   "name": "↪ Toggle ⚫️✅"
+  },
+  {
+   "id": "159:112454",
+   "name": "↪ Accordions ⚫️✅"
+  },
+  {
+   "id": "517:8797",
+   "name": "↪ Tabs ⚫️✅"
+  },
+  {
+   "id": "1053:7426",
+   "name": "↪ Pagination ⚫️✅"
+  },
+  {
+   "id": "1151:3640",
+   "name": "↪ Progress Steps ⚫️✅"
+  },
+  {
+   "id": "1053:7427",
+   "name": "↪ Progress Bar ⚫️✅"
+  },
+  {
+   "id": "10954:133543",
+   "name": "↪ Payment ⚫️✅"
+  },
+  {
+   "id": "1277:35371",
+   "name": "↪ Date Picker ⚫️✅"
+  },
+  {
+   "id": "4165:51046",
+   "name": "↪ Claim Tracker ⚫️✅"
+  },
+  {
+   "id": "3981:18476",
+   "name": "↪ Cart ⚫️✅"
+  },
+  {
+   "id": "156:133700",
+   "name": "↪ Cards (15) ⚫️✅"
+  },
+  {
+   "id": "12660:22719",
+   "name": "↪ Logo ⚫️✅"
+  },
+  {
+   "id": "3991:12723",
+   "name": "↪ Damage Map ⚫️✅"
+  },
+  {
+   "id": "4537:26350",
+   "name": "↪ Offer Stories ⚫️✅"
+  },
+  {
+   "id": "4470:13031",
+   "name": "↪ Offer Folder ⚫️✅"
+  },
+  {
+   "id": "4681:47463",
+   "name": "↪ Alshamel ⚫️✅"
+  },
+  {
+   "id": "4043:14364",
+   "name": "↪ Spinner ⚫️✅"
+  },
+  {
+   "id": "4470:13428",
+   "name": "↪ Hero Section ⚫️✅"
+  },
+  {
+   "id": "4771:7837",
+   "name": "↪ Graphs ⚫️✅"
+  },
+  {
+   "id": "20787:142011",
+   "name": "↪ Shimmer ⚫️"
+  },
+  {
+   "id": "14461:21895",
+   "name": "↪ Sales Journeys Components 🟠"
+  },
+  {
+   "id": "4808:535251",
+   "name": "↪ BETA components 🟠"
+  },
+  {
+   "id": "5050:20627",
+   "name": "-------------- Out of Scope / Depreciated -------------"
+  },
+  {
+   "id": "8798:24959",
+   "name": "Covers"
+  },
+  {
+   "id": "17368:62863",
+   "name": "------------------"
+  },
+  {
+   "id": "17368:63014",
+   "name": "↪ Organisms (UI Shell) 🗂️"
+  },
+  {
+   "id": "17368:63015",
+   "name": "Part 1"
+  },
+  {
+   "id": "143:5045",
+   "name": "---"
+  },
+  {
+   "id": "7096:271462",
+   "name": "Style Guide"
+  },
+  {
+   "id": "14015:13481",
+   "name": "Playground"
+  }
+ ]
+}

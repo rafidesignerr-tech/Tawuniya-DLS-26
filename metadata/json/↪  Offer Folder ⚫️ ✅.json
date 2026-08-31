@@ -1,0 +1,46 @@
+{
+ "OfferFolderMetadata": {
+  "component": {
+   "name": "Offer folder",
+   "category": "molecules",
+   "description": "Sticky bottom-anchored expandable component showcasing offers. Appears on scroll and expands on interaction. Primary and Secondary styles.",
+   "type": "interactive",
+   "figmaId": "7053:262301",
+   "totalVariants": 2
+  },
+  "variants": {
+   "Type": {
+    "options": [
+     "Primary",
+     "Secondary"
+    ],
+    "default": "Primary"
+   }
+  },
+  "aiHints": {
+   "priority": "medium",
+   "keywords": [
+    "offer folder",
+    "sticky offer",
+    "expandable offer",
+    "promo banner"
+   ]
+  }
+ },
+ "OfferFolderPageSummary": {
+  "pageName": "Offer Folder",
+  "pageId": "4470:13031",
+  "fileKey": "ydDjnPsHFoe8baKAw1w9eY",
+  "totalComponentSets": 1,
+  "totalStandaloneComponents": 0,
+  "totalVariantsAcrossAll": 2,
+  "componentIndex": [
+   {
+    "name": "Offer folder",
+    "id": "7053:262301",
+    "variants": 2,
+    "category": "molecules"
+   }
+  ]
+ }
+}

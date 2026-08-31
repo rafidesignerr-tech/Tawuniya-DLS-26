@@ -1,0 +1,96 @@
+/**
+ * Tawuniya DLS 4.0 — Component Metadata
+ * Page: "Tags" (159:112434)
+ * Figma file: ydDjnPsHFoe8baKAw1w9eY
+ * Generated: 2026-08-30
+ */
+
+// =============================================================================
+// Tags Page Component Metadata
+// Generated from Figma file: ydDjnPsHFoe8baKAw1w9eY
+// Page: "Tags" (159:112434)
+// =============================================================================
+//
+// Documentation:
+//   "Tags are compact elements used to label, categorize, or filter content.
+//    They help users quickly identify attributes, topics, or states."
+//
+// =============================================================================
+
+export const MobileTagMetadata = {
+  component: {
+    name: "Mobile/Tag",
+    category: "atoms",
+    description:
+      "Compact label element for categorizing, filtering, or indicating status. Supports 23 semantic states, 3 sizes, and optional leading/trailing icons. Used extensively across cards, lists, and detail screens.",
+    type: "display",
+    figmaId: "815:23310",
+    totalVariants: 69,
+  },
+
+  variants: {
+    States: {
+      options: [
+        "In Progress", "Pending", "Info", "Error", "Success", "Warning",
+        "Primary", "Outline", "Secondary",
+        "Waiting for provider", "Provider on the way", "Provider arrived", "Provider in service",
+        "Waiting for payment", "Confirmed", "Completed",
+        "Cancelled by user", "Cancelled by provider", "Cancelled by system", "Cancelled",
+        "No provider found", "No provider accepted", "Others",
+      ],
+      default: "In Progress",
+      groups: {
+        generic: ["In Progress", "Pending", "Info", "Error", "Success", "Warning", "Primary", "Outline", "Secondary"],
+        rsaProvider: ["Waiting for provider", "Provider on the way", "Provider arrived", "Provider in service"],
+        rsaPayment: ["Waiting for payment", "Confirmed", "Completed"],
+        rsaCancellation: ["Cancelled by user", "Cancelled by provider", "Cancelled by system", "Cancelled"],
+        rsaFallback: ["No provider found", "No provider accepted", "Others"],
+      },
+    },
+    Size: {
+      options: ["Large", "Medium", "Small"],
+      default: "Large",
+    },
+  },
+
+  properties: {
+    "Show Trail Icon": { type: "boolean", default: false },
+    "Show Leading Icon": { type: "boolean", default: true },
+    "Leading Icon": { type: "instanceSwap", default: "1325:96613" },
+    "Trailing Icon": { type: "instanceSwap", default: "1325:103399" },
+  },
+
+  accessibility: {
+    role: "status",
+    wcag: "AA",
+    notes: ["Content on Hover or Focus Level AA"],
+  },
+
+  aiHints: {
+    priority: "high",
+    keywords: ["tag", "badge", "label", "status", "chip", "indicator", "status badge", "category label"],
+    selectionCriteria: {
+      generic: "Use In Progress, Pending, Success, Error, Warning, Info for general status indication",
+      rsa: "Use RSA-specific states (Waiting for provider, Provider on the way, etc.) for roadside assistance flows",
+      style: "Use Primary, Outline, Secondary for neutral categorization labels",
+    },
+  },
+};
+
+// =============================================================================
+// PAGE-LEVEL SUMMARY
+// =============================================================================
+export const TagsPageSummary = {
+  pageName: "Tags",
+  pageId: "159:112434",
+  fileKey: "ydDjnPsHFoe8baKAw1w9eY",
+  totalComponentSets: 1,
+  totalStandaloneComponents: 0,
+  totalVariantsAcrossAll: 69,
+
+  componentIndex: [
+    { name: "Mobile/Tag", id: "815:23310", variants: 69, category: "atoms" },
+  ],
+
+  sizes: { Large: "Default tag size", Medium: "Compact tag", Small: "Minimal tag for tight spaces" },
+};

@@ -1,0 +1,109 @@
+/**
+ * Tawuniya DLS 4.0 — Component Metadata
+ * Page: "File Upload" (921:44031)
+ * Figma file: ydDjnPsHFoe8baKAw1w9eY
+ * Generated: 2026-08-30
+ */
+
+// =============================================================================
+// File Upload Page Component Metadata
+// Generated from Figma file: ydDjnPsHFoe8baKAw1w9eY
+// Page: "File Upload" (921:44031)
+// =============================================================================
+//
+// Documentation:
+//   "The file upload field allows users to select and submit files from their
+//    device. It can support single or multiple file uploads."
+//
+// =============================================================================
+
+export const MobileFileUploadMetadata = {
+  component: {
+    name: "Mobile/File Upload",
+    category: "molecules",
+    description:
+      "File upload field allowing users to select and submit files from their device. Supports single or multiple file uploads, with view/edit/delete actions on uploaded files and an optional mandatory indicator.",
+    type: "input",
+    figmaId: "3214:6137",
+    totalVariants: 5,
+  },
+
+  variants: {
+    Variant: {
+      options: ["Empty", "Uploaded", "View Only", "added pic", "Upload your profile picture"],
+      default: "Empty",
+      purpose: {
+        Empty: "Initial state with upload prompt",
+        Uploaded: "File has been uploaded, shows document name with action icons",
+        "View Only": "Read-only state showing uploaded file without edit/delete",
+        "added pic": "Profile picture has been added",
+        "Upload your profile picture": "Specialized prompt for profile picture upload",
+      },
+    },
+  },
+
+  properties: {
+    "Second File": { type: "boolean", default: false, description: "Toggle second file upload slot" },
+    "*mandatory": { type: "boolean", default: false, description: "Show mandatory asterisk" },
+    "OM/Hint": { type: "boolean", default: false, description: "Show optional message / hint" },
+    eye: { type: "boolean", default: true, description: "Show view/preview action icon" },
+    trash: { type: "boolean", default: true, description: "Show delete action icon" },
+    edit: { type: "boolean", default: true, description: "Show edit action icon" },
+    "Upload Button": { type: "boolean", default: true, description: "Show upload trigger button" },
+    Label: { type: "text", default: "Detailed Medical Report/\nDischarge Summary*" },
+  },
+
+  accessibility: {
+    role: "button",
+    wcag: "AA",
+    notes: ["Content on Hover or Focus Level AA"],
+  },
+
+  aiHints: {
+    priority: "high",
+    keywords: ["file upload", "upload field", "document upload", "attachment", "file picker", "upload"],
+  },
+};
+
+export const DocumentInputAtomMetadata = {
+  component: {
+    name: "_Atoms/Document Input",
+    category: "atoms",
+    description: "Uploaded document row atom showing document name with Uploaded and View Only states.",
+    type: "display",
+    figmaId: "3214:6031",
+    totalVariants: 2,
+  },
+  variants: { "Property 1": { options: ["Uploaded", "View Only"], default: "Uploaded" } },
+  properties: { "Document name": { type: "text", default: "Document_name.jpg" } },
+};
+
+export const MandatoryAtomMetadata = {
+  component: {
+    name: "*Mandatory",
+    category: "atoms",
+    description: "Mandatory indicator atom with true/false states.",
+    type: "indicator",
+    figmaId: "11352:143507",
+    totalVariants: 2,
+  },
+  variants: { madatory: { options: ["False", "True"], default: "False" } },
+};
+
+// =============================================================================
+// PAGE-LEVEL SUMMARY
+// =============================================================================
+export const FileUploadPageSummary = {
+  pageName: "File Upload",
+  pageId: "921:44031",
+  fileKey: "ydDjnPsHFoe8baKAw1w9eY",
+  totalComponentSets: 3,
+  totalStandaloneComponents: 0,
+  totalVariantsAcrossAll: 9,
+
+  componentIndex: [
+    { name: "Mobile/File Upload", id: "3214:6137", variants: 5, category: "molecules" },
+    { name: "_Atoms/Document Input", id: "3214:6031", variants: 2, category: "atoms" },
+    { name: "*Mandatory", id: "11352:143507", variants: 2, category: "atoms" },
+  ],
+};

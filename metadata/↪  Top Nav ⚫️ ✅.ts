@@ -1,0 +1,108 @@
+/**
+ * Tawuniya DLS 4.0 — Component Metadata
+ * Page: "Top Nav" (231:19032)
+ * Figma file: ydDjnPsHFoe8baKAw1w9eY
+ * Generated: 2026-08-30
+ */
+
+// =============================================================================
+// Top Nav Page Component Metadata
+// Generated from Figma file: ydDjnPsHFoe8baKAw1w9eY
+// Page: "Top Nav" (231:19032)
+// =============================================================================
+//
+// Documentation:
+//   "It provides users with easy navigation between sections and functionalities
+//    of an application or website. Typically positioned at the top of the screen."
+//
+// =============================================================================
+
+export const MobileTopNavigationMetadata = {
+  component: {
+    name: "Mobile/Top Navigation",
+    category: "organisms",
+    description:
+      "Primary top navigation bar providing global access points and contextual navigation. 8 levels/states cover home, sub-pages, deep pages, onboarding, logged-in user states, progress steps, alerts, and end-to-end flows.",
+    type: "navigation",
+    figmaId: "489:119281",
+    totalVariants: 8,
+  },
+
+  variants: {
+    State: {
+      options: ["Level 1", "Level 2", "Level 3", "Onboarding", "User logged in", "W Progress Steps", "WAlert", "E2E"],
+      default: "Level 1",
+      purpose: {
+        "Level 1": "Primary navigation anchor — global access points and app identity. Bottom Nav visible.",
+        "Level 2": "Contextual navigation within a specific flow or section. Bottom Nav hidden.",
+        "Level 3": "Deep/granular pages (settings, details, preferences). Minimal distraction.",
+        Onboarding: "Onboarding flow navigation",
+        "User logged in": "Logged-in user state with profile access",
+        "W Progress Steps": "Navigation with inline progress steps indicator",
+        WAlert: "Navigation with alert banner",
+        E2E: "End-to-end journey navigation",
+      },
+    },
+  },
+
+  properties: {
+    "Show Title": { type: "boolean", default: false },
+    "Show Third CTA": { type: "boolean", default: true },
+    "Show Second CTA": { type: "boolean", default: true },
+    "Show First CTA": { type: "boolean", default: true },
+    "Back Button": { type: "boolean", default: false },
+  },
+
+  accessibility: {
+    role: "navigation",
+    wcag: "AA",
+    notes: ["Content on Hover or Focus Level AA"],
+  },
+
+  aiHints: {
+    priority: "high",
+    keywords: ["top nav", "navigation bar", "header", "app bar", "toolbar", "top bar"],
+    considerations: [
+      "Level 1 pages show Bottom Nav; Level 2 and Level 3 pages hide it",
+      "Back button appears on Level 2+ pages",
+      "Up to 3 CTAs can be shown in the trailing section",
+    ],
+  },
+};
+
+export const TopNavAlertMetadata = {
+  component: {
+    name: "Alert",
+    category: "molecules",
+    description: "Alert banner within top nav showing contextual status messages (payment received, steps progress, etc.).",
+    type: "feedback",
+    figmaId: "10262:133740",
+    totalVariants: 4,
+  },
+  variants: {
+    state: { options: ["Steps progress", "Payment received", "View my requests", "vehicle is arrived"], default: "Steps progress" },
+  },
+};
+
+// =============================================================================
+// PAGE-LEVEL SUMMARY
+// =============================================================================
+export const TopNavPageSummary = {
+  pageName: "Top Nav",
+  pageId: "231:19032",
+  fileKey: "ydDjnPsHFoe8baKAw1w9eY",
+  totalComponentSets: 2,
+  totalStandaloneComponents: 0,
+  totalVariantsAcrossAll: 12,
+
+  componentIndex: [
+    { name: "Mobile/Top Navigation", id: "489:119281", variants: 8, category: "organisms" },
+    { name: "Alert", id: "10262:133740", variants: 4, category: "molecules" },
+  ],
+
+  navigationLevels: {
+    "Level 1": "Home / Main tabs — Bottom Nav visible",
+    "Level 2": "Sub-pages within a section — Bottom Nav hidden",
+    "Level 3": "Deep pages (settings, details) — minimal UI",
+  },
+};

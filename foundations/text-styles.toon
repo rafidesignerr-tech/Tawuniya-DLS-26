@@ -1,0 +1,29 @@
+# Tawuniya DLS — Typography styles (Layer 1 foundation)
+
+textStyles[23]{name,font,size,lineHeight,letterSpacing,boundVariables,description}:
+Display,Tawuniya Medium,80,100,0,[5]: letterSpacing,fontSize,fontFamily,lineHeight,fontWeight,
+heading1,Tawuniya Medium,40,50,0,[5]: letterSpacing,fontSize,fontFamily,lineHeight,fontWeight,
+heading2,Tawuniya Medium,32,40,0,[5]: letterSpacing,fontSize,fontFamily,lineHeight,fontWeight,
+heading3,Tawuniya Medium,24,30,0,[5]: letterSpacing,fontSize,fontFamily,lineHeight,fontWeight,
+heading4,Tawuniya Medium,20,26,0,[5]: letterSpacing,fontSize,fontFamily,lineHeight,fontWeight,
+heading5,Tawuniya Medium,16,20,0,[5]: letterSpacing,fontSize,fontFamily,lineHeight,fontWeight,
+heading6,Tawuniya Medium,14,18,0,[5]: letterSpacing,fontSize,fontFamily,lineHeight,fontWeight,
+body-medium-medium,Tawuniya Medium,16,20,0,[5]: letterSpacing,fontSize,fontFamily,lineHeight,fontWeight,
+body-medium-regular,Tawuniya Regular,16,20,0,[5]: letterSpacing,fontSize,fontFamily,lineHeight,fontWeight,
+body-small-medium,Tawuniya Medium,14,18,0,[5]: letterSpacing,fontSize,fontFamily,lineHeight,fontWeight,
+body-small-regular,Tawuniya Regular,14,18,0,[5]: letterSpacing,fontSize,fontFamily,lineHeight,fontWeight,
+body-extrasmall-regular,Tawuniya Regular,12,20,0,[5]: letterSpacing,fontSize,fontFamily,lineHeight,fontWeight,
+interactive-medium-regular,Tawuniya Regular,16,20,0,[5]: letterSpacing,fontSize,fontFamily,lineHeight,fontWeight,
+interactive-small-regular,Tawuniya Regular,14,18,0,[5]: letterSpacing,fontSize,fontFamily,lineHeight,fontWeight,
+interactive-extrasmall-regular,Tawuniya Regular,12,16,0,[5]: letterSpacing,fontSize,fontFamily,lineHeight,fontWeight,
+label-extrasmall-regular,Tawuniya Regular,12,16,0,[5]: letterSpacing,fontSize,fontFamily,lineHeight,fontWeight,
+label-extrasmall-medium,Tawuniya Medium,12,16,0,[5]: letterSpacing,fontSize,fontFamily,lineHeight,fontWeight,
+label-xxs-regular,Tawuniya Regular,10,12,0,[5]: letterSpacing,fontSize,fontFamily,lineHeight,fontWeight,
+navigation-xxs-regular,Tawuniya Regular,10,12,0,[5]: letterSpacing,fontSize,fontFamily,lineHeight,fontWeight,
+navigation-xxs-medium,Tawuniya Medium,10,12,0,[5]: letterSpacing,fontSize,fontFamily,lineHeight,fontWeight,
+riyal-large,Riyal-Font Regular,20,24,0,[5]: letterSpacing,fontSize,fontFamily,lineHeight,fontWeight,"riyal symbol - 24px size and line height
+عملة الريال"
+riyal-regular,Riyal-Font Regular,14,16,0,[5]: letterSpacing,fontSize,fontFamily,lineHeight,fontWeight,"riyal symbol - 16px size and line height
+عملة الريال"
+riyal-small,Riyal-Font Regular,12,12,0,[5]: letterSpacing,fontSize,fontFamily,lineHeight,fontWeight,"riyal symbol - 12px size and line height
+عملة الريال"

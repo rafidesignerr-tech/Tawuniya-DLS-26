@@ -1,0 +1,86 @@
+/**
+ * Tawuniya DLS 4.0 — Component Metadata
+ * Page: "Tabs" (517:8797)
+ * Figma file: ydDjnPsHFoe8baKAw1w9eY
+ * Generated: 2026-08-30
+ */
+
+// =============================================================================
+// Tabs Page Component Metadata
+// Generated from Figma file: ydDjnPsHFoe8baKAw1w9eY
+// Page: "Tabs" (517:8797)
+// =============================================================================
+//
+// Documentation:
+//   "Tabs are a navigational component that allows users to move easily between
+//    groups of related content."
+//
+// =============================================================================
+
+export const MobileTabsMetadata = {
+  component: {
+    name: "Mobile/Tabs",
+    category: "molecules",
+    description:
+      "Full-width scrollable tab bar for navigating between groups of related content. Supports 2, 3, or 4 tab configurations.",
+    type: "navigation",
+    figmaId: "1365:118677",
+    totalVariants: 3,
+  },
+
+  variants: {
+    "Num.": {
+      options: ["four", "three", "two"],
+      default: "four",
+    },
+  },
+
+  aiHints: {
+    priority: "high",
+    keywords: ["tabs", "tab bar", "tab navigation", "segmented control", "tab switcher"],
+    considerations: ["Full-width variant which is scrollable left-right based on the number of tabs"],
+  },
+};
+
+export const TabAtomMetadata = {
+  component: {
+    name: "Atoms/Tabs",
+    category: "atoms",
+    description: "Individual tab atom with label, icon, notification dot, selection, and 6 interaction states.",
+    type: "interactive",
+    figmaId: "1196:51456",
+    totalVariants: 10,
+  },
+  variants: {
+    Type: { options: ["Selected", "Default"], default: "Default" },
+    State: { options: ["Default", "Hover", "Pressed", "Focused", "Disabled", "Tabs"], default: "Default" },
+  },
+  properties: {
+    Text: { type: "text", default: "Label" },
+    "Show Label": { type: "boolean", default: true },
+    "Show icon": { type: "boolean", default: true },
+    "Show Notification": { type: "boolean", default: false },
+  },
+};
+
+export const NotificationDotAtom = {
+  component: { name: "_Atoms/Notification Dot", figmaId: "4008:7050", totalVariants: 1, category: "atoms" },
+};
+
+// =============================================================================
+// PAGE-LEVEL SUMMARY
+// =============================================================================
+export const TabsPageSummary = {
+  pageName: "Tabs",
+  pageId: "517:8797",
+  fileKey: "ydDjnPsHFoe8baKAw1w9eY",
+  totalComponentSets: 3,
+  totalStandaloneComponents: 0,
+  totalVariantsAcrossAll: 14,
+
+  componentIndex: [
+    { name: "Mobile/Tabs", id: "1365:118677", variants: 3, category: "molecules" },
+    { name: "Atoms/Tabs", id: "1196:51456", variants: 10, category: "atoms" },
+    { name: "_Atoms/Notification Dot", id: "4008:7050", variants: 1, category: "atoms" },
+  ],
+};

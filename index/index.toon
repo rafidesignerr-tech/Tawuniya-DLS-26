@@ -1,0 +1,45 @@
+# Tawuniya DLS — Index (entry point). Read this first.
+
+generator: tawuniya-dls-index
+version: 3.1.0
+source: figma-plugin-api
+fileKey: ydDjnPsHFoe8baKAw1w9eY
+generatedAt: 2026-08-31T12:35:00Z
+relationships: direct composition only; traverse for transitive
+
+statistics:
+  totalComponents: 320
+  byCategory:
+    atom: 56
+    molecule: 61
+    uncategorised: 184
+    organism: 19
+  pages: 38
+  figmaPagesTotal: 62
+  figmaPagesIndexed: 43
+  directRelationships: 911
+  relationshipDensity: 2.85
+  totalInstanceRefs: 6999
+  orphanComponents: 170
+  metadataCoverage: 42.5%
+  usageCoverage: 6.9%
+  a11yCoverage: 10.9%
+  distinctTokensBound: 418
+  tokensInLayer1: 307
+  legacyTokenRefs: 111
+  unusedLayer1Tokens: 340
+  icons: 2087
+  iconsUsed: 71
+  textStyles: 23
+  effectStyles: 10
+  gridStyles: 1
+
+files:
+  componentUsage: relationships/component-usage.toon
+  tokenUsage: relationships/token-usage.toon
+  icons: ../foundations/icons.toon
+  textStyles: ../foundations/text-styles.toon
+  effectStyles: ../foundations/effect-styles.toon
+  grids: ../foundations/grids.toon
+  pageCoverage: ../foundations/page-coverage.toon
+  gaps: ../audit/gaps.toon

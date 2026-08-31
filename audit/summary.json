@@ -1,0 +1,18 @@
+{
+ "totalGaps": 1290,
+ "byType": {
+  "legacy-tokens": 153,
+  "missing-usage": 298,
+  "missing-metadata": 184,
+  "missing-accessibility": 285,
+  "missing-category": 184,
+  "missing-figma-id": 10,
+  "no-tokens": 6,
+  "orphan": 170
+ },
+ "bySeverity": {
+  "high": 635,
+  "medium": 485,
+  "low": 170
+ }
+}

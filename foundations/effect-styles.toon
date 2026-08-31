@@ -1,0 +1,13 @@
+# Tawuniya DLS — Elevation / effect styles (Layer 1 foundation)
+
+effectStyles[10]{name,layers,spec}:
+light/elevation-100-canvas,1,DROP_SHADOW r2 y1 a0.03
+light/elevation-200-canvas,3,DROP_SHADOW r3 y1 a0.1 | DROP_SHADOW r8 y3 a0.1 | DROP_SHADOW r0.5 y0 a0.18
+light/elevation-300-tooltip,3,DROP_SHADOW r3 y1 a0.1 | DROP_SHADOW r12 y5 a0.13 | DROP_SHADOW r0.5 y0 a0.15
+light/elevation-400-menu-panel,3,DROP_SHADOW r5 y2 a0.15 | DROP_SHADOW r16 y10 a0.12 | DROP_SHADOW r0.5 y0 a0.12
+light/elevation-500-modal-window,4,DROP_SHADOW r5 y2 a0.15 | DROP_SHADOW r24 y10 a0.18 | DROP_SHADOW r0.5 y0 a0.08 | DROP_SHADOW r12 y3 a0.05
+dark/elevation-100-canvas,1,DROP_SHADOW r2 y1 a0.2
+dark/elevation-200-canvas,4,DROP_SHADOW r3 y1 a0.5 | INNER_SHADOW r0.5 y0 a0.3 | DROP_SHADOW r8 y3 a0.35 | INNER_SHADOW r0 y0.5 a0.08
+dark/elevation-300-tooltip,4,DROP_SHADOW r3 y1 a0.5 | INNER_SHADOW r0.5 y0 a0.3 | DROP_SHADOW r12 y5 a0.35 | INNER_SHADOW r0 y0.5 a0.08
+dark/elevation-400-menu-panel,4,DROP_SHADOW r5 y2 a0.35 | INNER_SHADOW r0.5 y0 a0.35 | DROP_SHADOW r16 y10 a0.35 | INNER_SHADOW r0 y0.5 a0.08
+dark/elevation-500-modal-window,4,DROP_SHADOW r5 y3 a0.35 | INNER_SHADOW r0.5 y0 a0.35 | DROP_SHADOW r24 y10 a0.45 | INNER_SHADOW r0 y0.5 a0.08
